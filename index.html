@@ -242,6 +242,7 @@
         xz: (r.xz || e.xiaozhuan_desc || r.xiaozhuan || r["小篆"] || "暂无小篆描述").toString().trim(),
         ks: (r.ks || e.kaishu_note || r.kaishu || r["楷书"] || "现代规范简体楷书").toString().trim(),
         origin: (r.origin || r.pictographic_origin || r["字源"] || "").toString().trim(),
+        story: (r.story || r["故事"] || "").toString().trim(),
         rhyme: (r.rhyme || r.rhyming_verse || r["口诀"] || "").toString().trim()
       };
     }
@@ -423,8 +424,17 @@
       }
 
 
-      document.getElementById("student-clue-box").textContent = simplifyForKids(item.origin, "✨ 看图记住“" + item.c + "”：");
-      document.getElementById("origin-text").textContent = isStudent ? (item.origin.split("。").slice(0, 2).join("。") + "。") : item.origin;
+           const clueBox = document.getElementById("student-clue-box");
+      if (item.story) {
+        clueBox.textContent = "📖 汉字小故事：" + item.story;
+        document.getElementById("origin-text").textContent = isStudent ? "" : item.origin;
+        document.getElementById("origin-text").style.display = isStudent ? "none" : "block";
+      } else {
+        clueBox.textContent = simplifyForKids(item.origin, "✨ 看图记住“" + item.c + "”：");
+        document.getElementById("origin-text").style.display = "block";
+        document.getElementById("origin-text").textContent = isStudent ? (item.origin.split("。").slice(0, 2).join("。") + "。") : item.origin;
+      }
+
       document.getElementById("citation-text").textContent = "📚 出处参考：" + item.cite;
       document.getElementById("rhyme-text").textContent = item.rhyme || "（暂无配套识字口诀）";
     }
