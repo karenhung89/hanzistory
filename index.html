@@ -113,6 +113,17 @@
       color: var(--ink);
     }
 
+        .no-jgw-badge {
+      background: #FEF3C7;
+      border: 1.5px dashed #F59E0B;
+      color: #92400E;
+      border-radius: 10px;
+      padding: 0.75rem 0.9rem;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      max-width: 92%;
+    }
+
   </style>
 </head>
 
@@ -393,7 +404,16 @@
       pe.className = "pinyin-display" + (hidePinyin ? " pinyin-hidden" : "");
       document.getElementById("hero-badges").innerHTML = '<span class="badge badge-level">欢乐伙伴 ' + item.book + ' · ' + item.lesson + '</span><span class="badge ' + (item.tag === "我会写" ? "badge-write" : "badge-read") + '">' + item.tag + '</span>';
       document.getElementById("master-toggle-btn").textContent = masteredSet.has(item.c) ? "✓ 我学会了 (Mastered)" : "☆ 标记学会";
-      document.getElementById("glyph-jgw").textContent = item.c;
+            const NO_JGW_CHARS = new Set("牙也儿你他爸的妈她个士只句吗字早书毛是尺把吃草太阳伞包师玩奶半来苗里开关广哭笑爷姐果瓜花叶朵片笔头本手画足厂跑飞支什么看问们体条说语点华寸粒地坏没哥和气的了以".split(""));
+      const jgwEl = document.getElementById("glyph-jgw");
+      if (NO_JGW_CHARS.has(item.c)) {
+        jgwEl.className = "no-jgw-badge";
+        jgwEl.innerHTML = "⏳ <strong>商代尚无此字</strong><br/>此字多见于周代或秦汉时期，<br/>请直接观察右侧<strong>小篆</strong>字形演变 👉";
+      } else {
+        jgwEl.className = "ancient-glyph-jgw";
+        jgwEl.textContent = toAncientForm(item.c);
+      }
+
       document.getElementById("glyph-xz").textContent = item.c;
       document.getElementById("desc-jgw").textContent = isStudent ? simplifyForKids(item.jgw, "🦴 古画模样：") : item.jgw;
       document.getElementById("desc-xz").textContent = isStudent ? simplifyForKids(item.xz, "📜 线条变化：") : item.xz;
