@@ -261,29 +261,68 @@
       if (filteredList.length) renderStudyCard();
     }
 
-    async function initData() {
+        async function initData() {
       applyMode(localStorage.getItem(MODE_KEY) || "student");
-      for (const k of [DB_KEY, "moe_hanzi_db", "hanzi_db"]) {
-        const s = localStorage.getItem(k);
-        if (s) {
-          try {
-            const p = JSON.parse(s).map(normalizeRecord).filter(x => x.c);
-            if (p.length) { db = p; if (k !== DB_KEY) saveDB(); break; }
-          } catch (_) {}
-        }
-      }
-      if (!db.length) {
+
+      // List all JSON files in your GitHub root folder here:
+      const DATA_FILES = [
+        "./1a.json",
+        "./1b.json",
+        "./2a.json",
+        "./2b.json",
+        "./3a.json",
+        "./3b.json",
+        "./hanzi_data.json"
+      ];
+
+      let loadedFromFiles = [];
+
+      for (const fileUrl of DATA_FILES) {
         try {
-          const r = await fetch("./hanzi_data.json");
+          const r = await fetch(fileUrl);
           if (r.ok) {
-            const e = await r.json();
-            if (Array.isArray(e) && e.length) { db = e.map(normalizeRecord).filter(x => x.c); saveDB(); }
+            const arr = await r.json();
+            if (Array.isArray(arr)) {
+              arr.forEach(rawItem => {
+                const item = normalizeRecord(rawItem);
+                if (!item.c) return;
+                const existingIdx = loadedFromFiles.findIndex(
+                  x => x.c === item.c && x.book === item.book && x.lesson === item.lesson
+                );
+                if (existingIdx >= 0) {
+                  loadedFromFiles[existingIdx] = item;
+                } else {
+                  loadedFromFiles.push(item);
+                }
+              });
+            }
           }
         } catch (_) {}
       }
+
+      if (loadedFromFiles.length) {
+        db = loadedFromFiles;
+        saveDB();
+      }
+
+      // Fallback to localStorage if offline
+      if (!db.length) {
+        for (const k of [DB_KEY, "moe_hanzi_db", "hanzi_db"]) {
+          const s = localStorage.getItem(k);
+          if (s) {
+            try {
+              const p = JSON.parse(s).map(normalizeRecord).filter(x => x.c);
+              if (p.length) { db = p; if (k !== DB_KEY) saveDB(); break; }
+            } catch (_) {}
+          }
+        }
+      }
+
+      // Final fallback to built-in STARTER_DATA
       if (!db.length) db = STARTER_DATA.map(normalizeRecord).filter(x => x.c);
       refreshUI();
     }
+
 
     function saveDB() { localStorage.setItem(DB_KEY, JSON.stringify(db)); }
     function refreshUI() { updateProgressStrip(); populateLessonDropdown(); applyFilters(); }
