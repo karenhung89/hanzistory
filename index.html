@@ -488,19 +488,34 @@
   const grid = document.getElementById("evo-grid"), box = document.getElementById("crop-box");
   const cards = [...grid.children], evo = item.evolution;
   box.innerHTML = "";
-  // 重置
-  grid.style.gridTemplateColumns = "";
-  cards.forEach(c => { c.style.display = ""; const n = c.querySelector(".grey-note"); if (n) n.remove(); c.querySelector(".artifact-box").style.display = ""; });
 
-  // 图片：只有 has_crop 为 true 才显示，标签用 crop_form
+  // 重置：三张卡片永远存在
+  grid.style.display = "grid";
+  grid.style.gridTemplateColumns = "";
+  cards.forEach(c => {
+    c.style.display = "";
+    c.querySelectorAll(".grey-note, .gen-note").forEach(n => n.remove());
+    const a = c.querySelector(".artifact-box");
+    if (a) a.style.display = "";
+  });
+  const setLabel = (card, txt) => card.querySelectorAll(".stage-tag").forEach(t => t.textContent = txt);
+  const addNote = (card, txt, cls, color) => {
+    const n = document.createElement("p");
+    n.className = cls;
+    n.style.cssText = "font-size:0.75rem;margin:0.3rem 0 0;text-align:center;color:" + color + ";";
+    n.textContent = txt;
+    card.appendChild(n);
+  };
+
+  // 图片：只有 has_crop 为 true 才显示
   if (item.has_crop && item.image_file) {
     const wrap = document.createElement("div");
-    wrap.style.cssText = "text-align:center;background:#FFF;border:1.5px solid var(--border);border-radius:12px;padding:0.8rem;";
+    wrap.style.cssText = "text-align:center;background:#FFF;border:1.5px solid var(--border);border-radius:12px;padding:0.8rem;margin-bottom:0.5rem;";
     const img = document.createElement("img");
     img.src = "images/" + encodeURI(item.image_file);
     img.alt = item.c;
     img.style.cssText = "max-width:100%;max-height:260px;";
-    img.onerror = () => { img.replaceWith(Object.assign(document.createElement("div"), { textContent: "图片找不到：" + item.image_file })); };
+    img.onerror = () => { img.replaceWith(Object.assign(document.createElement("div"), { textContent: "图片���不到：" + item.image_file })); };
     const cap = document.createElement("div");
     cap.style.cssText = "font-weight:700;margin-top:0.4rem;";
     cap.textContent = item.crop_form;
@@ -513,39 +528,36 @@
       wrap.append(t);
     }
     box.appendChild(wrap);
-  }
-
-  // 演变阶梯：只按 evolution 列表
-  if (!evo) {
-    grid.style.display = "none";
+  } else {
     const p = document.createElement("p");
-    p.style.cssText = "color:var(--ink-muted);text-align:center;";
+    p.style.cssText = "color:var(--ink-muted);text-align:center;margin:0 0 0.5rem;";
     p.textContent = "图片待补充";
     box.appendChild(p);
+  }
+
+  // 没有 evolution：三格照常显示，只加提示
+  if (!evo) {
+    cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
     return;
   }
-  grid.style.display = "grid";
-  const setLabel = (card, txt) => card.querySelectorAll(".stage-tag").forEach(t => t.textContent = txt);
-  // 去掉软件自己生成的字形，不冒充古文字
-  cards[0].querySelector(".artifact-box").style.display = "none";
-  cards[1].querySelector(".artifact-box").style.display = "none";
+
   if (evo.length === 3) {
     evo.forEach((lab, i) => setLabel(cards[i], lab));
+    cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
   } else if (evo[0] === "小篆") {
     setLabel(cards[0], "甲骨文");
-    const n = document.createElement("p");
-    n.className = "grey-note stage-desc";
-    n.style.color = "#94A3B8";
-    n.textContent = item.evolution_note || "这个字在甲骨文时期还没有出现";
-    cards[0].appendChild(n);
-    cards[0].querySelector(".stage-desc:not(.grey-note)").textContent = "";
+    cards[0].querySelector(".artifact-box").style.display = "none";
+    addNote(cards[0], item.evolution_note || "这个字在甲骨文时期还没有出现", "grey-note", "#94A3B8");
     setLabel(cards[1], "小篆"); setLabel(cards[2], "楷书");
+    addNote(cards[1], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
   } else { // 印文, 楷书
     setLabel(cards[0], evo[0]);
     cards[1].style.display = "none";
     grid.style.gridTemplateColumns = "repeat(2,1fr)";
+    addNote(cards[0], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
   }
 }
+
 
     function speakText(t) {
       if (!("speechSynthesis" in window)) return;
