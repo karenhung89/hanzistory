@@ -484,6 +484,7 @@
       document.getElementById("drawer-arrow-btn").textContent = isDrawerCollapsed ? "▼ 展开列表" : "▲ 收起列表";
     };
 
+    // v9 (2026-11-19): show evolution_note also for 3-stage and 印文 ladders, e.g. 牙 / 也 金文 note
     function renderCropAndLadder(item) {
   const grid = document.getElementById("evo-grid"), box = document.getElementById("crop-box");
   const cards = [...grid.children], evo = item.evolution;
@@ -515,7 +516,7 @@
     img.src = "images/" + encodeURI(item.image_file);
     img.alt = item.c;
     img.style.cssText = "max-width:100%;max-height:260px;";
-    img.onerror = () => { img.replaceWith(Object.assign(document.createElement("div"), { textContent: "图片���不到：" + item.image_file })); };
+    img.onerror = () => { img.replaceWith(Object.assign(document.createElement("div"), { textContent: "图片   不到：" + item.image_file })); };
     const cap = document.createElement("div");
     cap.style.cssText = "font-weight:700;margin-top:0.4rem;";
     cap.textContent = item.crop_form;
@@ -545,7 +546,8 @@
     evo.forEach((lab, i) => setLabel(cards[i], lab));
     cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
     if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
-}
+    // v9: first stage is not 甲骨文 (e.g. 金文 for 牙 / 也) — the font glyph is just the modern character, so hide it and let the crop picture at the top be the real form
+    if (evo[0] !== "甲骨文") cards[0].querySelector(".artifact-box").style.display = "none";
   } else if (evo[0] === "小篆") {
     setLabel(cards[0], "甲骨文");
     cards[0].querySelector(".artifact-box").style.display = "none";
@@ -557,8 +559,7 @@
     cards[1].style.display = "none";
     grid.style.gridTemplateColumns = "repeat(2,1fr)";
     addNote(cards[0], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
-      if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
-}
+    if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
   }
 }
 
@@ -688,5 +689,4 @@ initData();
 </script>
 </body>
 </html>
-
 
