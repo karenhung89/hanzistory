@@ -544,6 +544,8 @@
   if (evo.length === 3) {
     evo.forEach((lab, i) => setLabel(cards[i], lab));
     cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
+    if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+}
   } else if (evo[0] === "小篆") {
     setLabel(cards[0], "甲骨文");
     cards[0].querySelector(".artifact-box").style.display = "none";
@@ -555,6 +557,8 @@
     cards[1].style.display = "none";
     grid.style.gridTemplateColumns = "repeat(2,1fr)";
     addNote(cards[0], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+}
   }
 }
 
