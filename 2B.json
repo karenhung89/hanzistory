@@ -27,7 +27,18 @@
       "做生日贺卡需要几张硬的彩色纸。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一张洁白平整的纸张，可以在上面画画写字。"
+    "pic_desc": "一张洁白平整的纸张，可以在上面画画写字。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "机",
@@ -57,7 +68,18 @@
       "右上角是樟宜机场，那里有很多飞机。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一架银白色的飞机在空中划过蓝天。"
+    "pic_desc": "一架银白色的飞机在空中划过蓝天。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "块",
@@ -85,7 +107,22 @@
       "做彩虹转盘需要一块硬纸板。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一小块肥沃的泥土，上面盖着绿色苔藓。"
+    "pic_desc": "一小块肥沃的泥土，上面盖着绿色苔藓。",
+    "has_crop": true,
+    "image_file": "块_p199.jpg",
+    "ascii_file": "kuai_5757_p199.jpg",
+    "crop_book_page": 199,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "跟",
@@ -112,7 +149,18 @@
       "这只小狗很乖，它总是跟着主人。"
     ],
     "ladder_check": "book",
-    "pic_desc": "小鸭子紧紧跟在妈妈身后向前走。"
+    "pic_desc": "小鸭子紧紧跟在妈妈身后向前走。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "棋",
@@ -138,7 +186,18 @@
       "我可以跟你一起玩跳棋吗？"
     ],
     "ladder_check": "other",
-    "pic_desc": "棋盘上黑白两色的围棋棋子摆放整齐。"
+    "pic_desc": "棋盘上黑白两色的围棋棋子摆放整齐。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "搭",
@@ -165,7 +224,18 @@
       "他梦见自己搭船去了一个小岛。"
     ],
     "ladder_check": "book",
-    "pic_desc": "双手搭起一块块彩色积木，建起城堡。"
+    "pic_desc": "双手搭起一块块彩色积木，建起城堡。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "积",
@@ -192,7 +262,18 @@
       "哥哥把积木撞倒了，弟弟很伤心。"
     ],
     "ladder_check": "book",
-    "pic_desc": "仓库里堆积如山的金色稻谷。"
+    "pic_desc": "仓库里堆积如山的金色稻谷。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "布",
@@ -219,7 +300,18 @@
       "我们一起玩布娃娃吧。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一匹色彩鲜艳、质地柔软的棉布。"
+    "pic_desc": "一匹色彩鲜艳、质地柔软的棉布。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "娃",
@@ -247,7 +339,18 @@
       "红娃娃抢着说：我可以画圆圆的太阳！"
     ],
     "ladder_check": "book",
-    "pic_desc": "一个抱着绒毛玩具、笑容甜美可爱的小娃娃。"
+    "pic_desc": "一个抱着绒毛玩具、笑容甜美可爱的小娃娃。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "吧",
@@ -272,7 +375,18 @@
       "康康跑了过来，说：妈妈，请选一张吧。"
     ],
     "ladder_check": "book",
-    "pic_desc": "小朋友开口开心地说：“我们一起去玩耍吧！”"
+    "pic_desc": "小朋友开口开心地说：“我们一起去玩耍吧！”",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "器",
@@ -296,7 +410,22 @@
       "我们一起玩机器人吧。"
     ],
     "ladder_check": "other",
-    "pic_desc": "四个精致的陶罐陈列在桌上，守卫看护着。"
+    "pic_desc": "四个精致的陶罐陈列在桌上，守卫看护着。",
+    "has_crop": true,
+    "image_file": "器_p278.jpg",
+    "ascii_file": "qi_5668_p278.jpg",
+    "crop_book_page": 278,
+    "crop_part": "04",
+    "crop_form": "金文",
+    "earliest_form": "金文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "金文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是金文。",
+    "form_mismatch": true
   },
   {
     "c": "许",
@@ -324,7 +453,22 @@
       "妈妈先许愿，再吹蜡烛，最后切蛋糕。"
     ],
     "ladder_check": "book",
-    "pic_desc": "书架上摆放着许多丰富多彩的图书。"
+    "pic_desc": "书架上摆放着许多丰富多彩的图书。",
+    "has_crop": true,
+    "image_file": "许_p404.jpg",
+    "ascii_file": "xu_8BB8_p404.jpg",
+    "crop_book_page": 404,
+    "crop_part": "06",
+    "crop_form": "金文",
+    "earliest_form": "金文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "金文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是金文。",
+    "form_mismatch": false
   },
   {
     "c": "绳",
@@ -348,7 +492,18 @@
       "踢踢毽子跳跳绳。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一根结实坚韧的五彩跳绳。"
+    "pic_desc": "一根结实坚韧的五彩跳绳。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "捏",
@@ -370,7 +525,18 @@
       "捏捏粘土拼拼图。"
     ],
     "ladder_check": "other",
-    "pic_desc": "用巧手把一块彩色粘土捏成可爱的小兔子。"
+    "pic_desc": "用巧手把一块彩色粘土捏成可爱的小兔子。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "拼",
@@ -394,7 +560,18 @@
       "捏捏粘土拼拼图。"
     ],
     "ladder_check": "other",
-    "pic_desc": "把散落的拼图碎片一块块拼成完整的画。"
+    "pic_desc": "把散落的拼图碎片一块块拼成完整的画。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "船",
@@ -423,7 +600,18 @@
       "他梦见自己搭船去了一个小岛。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一艘大船在蓝色的海洋上升起风帆航行。"
+    "pic_desc": "一艘大船在蓝色的海洋上升起风帆航行。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "更",
@@ -449,7 +637,22 @@
       "你只要常常练习，就能跑得更快。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一个人拿着小木棒敲打提示，表示改变更新、更加。"
+    "pic_desc": "一个人拿着小木棒敲打提示，表示改变更新、更加。",
+    "has_crop": true,
+    "image_file": "更_p116.jpg",
+    "ascii_file": "geng_66F4_p116.jpg",
+    "crop_book_page": 116,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "鹰",
@@ -474,7 +677,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "一只雄鹰展翅在高空云端盘旋。"
+    "pic_desc": "一只雄鹰展翅在高空云端盘旋。",
+    "has_crop": true,
+    "image_file": "鹰_p438.jpg",
+    "ascii_file": "ying_9E70_p438.jpg",
+    "crop_book_page": 438,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "追",
@@ -503,7 +721,22 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "小朋友迈开双腿在草地上追赶飞舞的蝴蝶。"
+    "pic_desc": "小朋友迈开双腿在草地上追赶飞舞的蝴蝶。",
+    "has_crop": true,
+    "image_file": "追_p498.jpg",
+    "ascii_file": "zhui_8FFD_p498.jpg",
+    "crop_book_page": 498,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "过",
@@ -533,7 +766,22 @@
       "外公说：过年了，你们又长大了一岁！"
     ],
     "ladder_check": "book",
-    "pic_desc": "迈开双脚走过小木桥，穿过溪流。"
+    "pic_desc": "迈开双脚走过小木桥，穿过溪流。",
+    "has_crop": true,
+    "image_file": "过_p130.jpg",
+    "ascii_file": "guo_8FC7_p130.jpg",
+    "crop_book_page": 130,
+    "crop_part": "02",
+    "crop_form": "金文",
+    "earliest_form": "金文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "金文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是金文。",
+    "form_mismatch": true
   },
   {
     "c": "吗",
@@ -558,7 +806,18 @@
       "弟弟问：小鸟，你看见小鱼了吗？"
     ],
     "ladder_check": "book",
-    "pic_desc": "张开小嘴巴礼貌地询问：“你好吗？”"
+    "pic_desc": "张开小嘴巴礼貌地询问：“你好吗？”",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "跳",
@@ -587,7 +846,21 @@
       "姐妹俩一会儿唱歌，一会儿跳舞。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友双脚用力一弹，欢快地向上蹦跳。"
+    "pic_desc": "小朋友双脚用力一弹，欢快地向上蹦跳。",
+    "has_crop": true,
+    "image_file": "跳_p349.jpg",
+    "ascii_file": "tiao_8DF3_p349.jpg",
+    "crop_book_page": 349,
+    "crop_part": "05",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "象",
@@ -615,7 +888,22 @@
       "早安，小鸟和大象。",
       "大象在山上，小鸟也在山上。"
     ],
-    "pic_desc": "一只大象扬起长长的鼻子，摇晃着大耳朵。"
+    "pic_desc": "一只大象扬起长长的鼻子，摇晃着大耳朵。",
+    "has_crop": true,
+    "image_file": "象_p390.jpg",
+    "ascii_file": "xiang_8C61_p390.jpg",
+    "crop_book_page": 390,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "石",
@@ -645,7 +933,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "山脚下一块坚硬圆润的大石头。"
+    "pic_desc": "山脚下一块坚硬圆润的大石头。",
+    "has_crop": true,
+    "image_file": "石_p321.jpg",
+    "ascii_file": "shi_77F3_p321.jpg",
+    "crop_book_page": 321,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "永",
@@ -665,7 +968,22 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "一条清澈的小溪蜿蜒曲折、长流不息。"
+    "pic_desc": "一条清澈的小溪蜿蜒曲折、长流不息。",
+    "has_crop": true,
+    "image_file": "永_p440.jpg",
+    "ascii_file": "yong_6C38_p440.jpg",
+    "crop_book_page": 440,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "轻",
@@ -692,7 +1010,18 @@
       "做什么事情都轻手轻脚的。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一朵洁白的羽毛在空中轻盈飘浮。"
+    "pic_desc": "一朵洁白的羽毛在空中轻盈飘浮。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "命",
@@ -722,7 +1051,22 @@
       "风雨这么大，没命是不行的。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一颗破土而出的小芽，展现着顽强的生命。"
+    "pic_desc": "一颗破土而出的小芽，展现着顽强的生命。",
+    "has_crop": true,
+    "image_file": "命_p244.jpg",
+    "ascii_file": "ming_547D_p244.jpg",
+    "crop_book_page": 244,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "百",
@@ -746,7 +1090,22 @@
       "这次考试我得了一百分。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一本厚厚装订的书，里面有一百页彩图。"
+    "pic_desc": "一本厚厚装订的书，里面有一百页彩图。",
+    "has_crop": true,
+    "image_file": "百_p14.jpg",
+    "ascii_file": "bai_767E_p14.jpg",
+    "crop_book_page": 14,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "健",
@@ -768,7 +1127,18 @@
       "身体健康！"
     ],
     "ladder_check": "other",
-    "pic_desc": "一个小朋友在操场上做运动，身体非常强健。"
+    "pic_desc": "一个小朋友在操场上做运动，身体非常强健。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "康",
@@ -796,7 +1166,22 @@
       "康康跑了过来，说：妈妈，请选一张吧。"
     ],
     "ladder_check": "book",
-    "pic_desc": "一家人围坐在一起开开心心，健康平安。"
+    "pic_desc": "一家人围坐在一起开开心心，健康平安。",
+    "has_crop": true,
+    "image_file": "康_p195.jpg",
+    "ascii_file": "kang_5EB7_p195.jpg",
+    "crop_book_page": 195,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "幸",
@@ -817,7 +1202,22 @@
     "sentences": [],
     "type_note": "也见指事说",
     "ladder_check": "other",
-    "pic_desc": "小女孩抱着生日礼物，脸上洋溢着幸福。"
+    "pic_desc": "小女孩抱着生日礼物，脸上洋溢着幸福。",
+    "has_crop": true,
+    "image_file": "幸_p400.jpg",
+    "ascii_file": "xing_5E78_p400.jpg",
+    "crop_book_page": 400,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "愿",
@@ -845,7 +1245,18 @@
       "我有一个美丽的愿望，长大后当老师！"
     ],
     "ladder_check": "other",
-    "pic_desc": "在闪烁的流星下闭上双眼许下一个心愿。"
+    "pic_desc": "在闪烁的流星下闭上双眼许下一个心愿。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "吹",
@@ -870,7 +1281,22 @@
       "妈妈先许愿，再吹蜡烛，最后切蛋糕。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友鼓起腮帮子轻轻吹散蒲公英。"
+    "pic_desc": "小朋友鼓起腮帮子轻轻吹散蒲公英。",
+    "has_crop": true,
+    "image_file": "吹_p62.jpg",
+    "ascii_file": "chui_5439_p62.jpg",
+    "crop_book_page": 62,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "糕",
@@ -894,7 +1320,18 @@
       "妈妈先许愿，再吹蜡烛，最后切蛋糕。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一个涂满新鲜鲜奶油和草莓的生日蛋糕。"
+    "pic_desc": "一个涂满新鲜鲜奶油和草莓的生日蛋糕。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "首",
@@ -922,7 +1359,22 @@
       "这首英语歌很好听，我听过几遍。"
     ],
     "ladder_check": "other",
-    "pic_desc": "站在队伍的最前面，首先跨出第一步。"
+    "pic_desc": "站在队伍的最前面，首先跨出第一步。",
+    "has_crop": true,
+    "image_file": "首_p328.jpg",
+    "ascii_file": "shou_9996_p328.jpg",
+    "crop_book_page": 328,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "张",
@@ -951,7 +1403,18 @@
       "阿姨给妈妈买了两张电影票。",
       "康康跑了过来，说：妈妈，请选一张吧。"
     ],
-    "pic_desc": "张开双手迎接远方归来的亲人。"
+    "pic_desc": "张开双手迎接远方归来的亲人。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "卡",
@@ -981,7 +1444,18 @@
       "做生日贺卡需要几张硬的彩色纸。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一张精心制作、写满祝福的彩色贺卡。"
+    "pic_desc": "一张精心制作、写满祝福的彩色贺卡。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "影",
@@ -1005,7 +1479,18 @@
       "阿姨给妈妈买了两张电影票。"
     ],
     "ladder_check": "other",
-    "pic_desc": "阳光下小男孩身后拉长的小影子。"
+    "pic_desc": "阳光下小男孩身后拉长的小影子。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "票",
@@ -1030,7 +1515,18 @@
     ],
     "type_note": "也见假借说",
     "ladder_check": "other",
-    "pic_desc": "一张精美的公园参观门票。"
+    "pic_desc": "一张精美的公园参观门票。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "礼",
@@ -1058,7 +1554,18 @@
       "弯弯的月亮五颗星，看见国旗行个礼。"
     ],
     "ladder_check": "other",
-    "pic_desc": "系着红色丝带的漂亮节日礼物。"
+    "pic_desc": "系着红色丝带的漂亮节日礼物。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "厅",
@@ -1082,7 +1589,18 @@
       "我把弟弟做的灯笼挂在客厅里。"
     ],
     "ladder_check": "other",
-    "pic_desc": "打扫得干干净净、宽敞明亮的客厅。"
+    "pic_desc": "打扫得干干净净、宽敞明亮的客厅。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "奇",
@@ -1109,7 +1627,18 @@
       "她想：奇怪，这是怎么一回事？"
     ],
     "ladder_check": "other",
-    "pic_desc": "一顶会变出小白兔的魔术师奇妙帽子。"
+    "pic_desc": "一顶会变出小白兔的魔术师奇妙帽子。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "怪",
@@ -1137,7 +1666,18 @@
       "没关系，你不是故意的，我不怪你。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小猫看见镜子里的自己，露出奇怪的表情。"
+    "pic_desc": "小猫看见镜子里的自己，露出奇怪的表情。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "活",
@@ -1166,7 +1706,18 @@
       "外婆说：你的生活中少不了它。"
     ],
     "ladder_check": "book",
-    "pic_desc": "活泼可爱的小树苗茁壮成长。"
+    "pic_desc": "活泼可爱的小树苗茁壮成长。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "宝",
@@ -1188,7 +1739,22 @@
       "变废为宝。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一个装满闪闪发光金币与宝石的宝箱。"
+    "pic_desc": "一个装满闪闪发光金币与宝石的宝箱。",
+    "has_crop": true,
+    "image_file": "宝_p19.jpg",
+    "ascii_file": "bao_5B9D_p19.jpg",
+    "crop_book_page": 19,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "远",
@@ -1214,7 +1780,21 @@
       "奶奶家很远，它走着走着就迷路了。"
     ],
     "ladder_check": "book",
-    "pic_desc": "小船驶向遥远的大海地平线。"
+    "pic_desc": "小船驶向遥远的大海地平线。",
+    "has_crop": true,
+    "image_file": "远_p457.jpg",
+    "ascii_file": "yuan_8FDC_p457.jpg",
+    "crop_book_page": 457,
+    "crop_part": "07",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "岁",
@@ -1244,7 +1824,22 @@
       "大表哥今年二十一岁，比我大十二岁。"
     ],
     "ladder_check": "other",
-    "pic_desc": "蛋糕上插着七支点燃的蜡烛，代表七岁。"
+    "pic_desc": "蛋糕上插着七支点燃的蜡烛，代表七岁。",
+    "has_crop": true,
+    "image_file": "岁_p342.jpg",
+    "ascii_file": "sui_5C81_p342.jpg",
+    "crop_book_page": 342,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "写",
@@ -1271,7 +1866,18 @@
       "我说左边手右边丁，她写打。",
       "扫完地，我和妹妹坐下写字。"
     ],
-    "pic_desc": "小朋友端坐在书桌前认认真真写汉字。"
+    "pic_desc": "小朋友端坐在书桌前认认真真写汉字。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "想",
@@ -1302,7 +1908,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "小男孩手托着下巴，认真地动脑思考。"
+    "pic_desc": "小男孩手托着下巴，认真地动脑思考。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "澡",
@@ -1326,7 +1943,22 @@
       "小猫不爱洗澡。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小鸭子在水盆里洗澡，水花四溅。"
+    "pic_desc": "小鸭子在水盆里洗澡，水花四溅。",
+    "has_crop": true,
+    "image_file": "澡_p468.jpg",
+    "ascii_file": "zao_6FA1_p468.jpg",
+    "crop_book_page": 468,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "睡",
@@ -1354,7 +1986,18 @@
       "开着灯睡觉是不对的，因为会浪费电。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小宝宝乖乖躺在床上闭上眼睛睡觉。"
+    "pic_desc": "小宝宝乖乖躺在床上闭上眼睛睡觉。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "觉",
@@ -1382,7 +2025,18 @@
       "大明觉得这些小动物可爱极了！"
     ],
     "ladder_check": "book",
-    "pic_desc": "早上醒来，感觉身体充满力量。"
+    "pic_desc": "早上醒来，感觉身体充满力量。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "羽",
@@ -1406,7 +2060,22 @@
       "小鸟会自己清理羽毛。"
     ],
     "ladder_check": "other",
-    "pic_desc": "鸟儿身上一片片五彩斑斓的轻盈羽毛。"
+    "pic_desc": "鸟儿身上一片片五彩斑斓的轻盈羽毛。",
+    "has_crop": true,
+    "image_file": "羽_p449.jpg",
+    "ascii_file": "yu_7FBD_p449.jpg",
+    "crop_book_page": 449,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "乖",
@@ -1433,7 +2102,18 @@
     ],
     "type_note": "也见假借说",
     "ladder_check": "other",
-    "pic_desc": "小猫咪乖乖蹲在主人脚边伸懒腰。"
+    "pic_desc": "小猫咪乖乖蹲在主人脚边伸懒腰。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "总",
@@ -1460,7 +2140,18 @@
       "他总是说：我只要认识它，能念就行了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小女孩总是微笑着对待身边的每一个朋友。"
+    "pic_desc": "小女孩总是微笑着对待身边的每一个朋友。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "聪",
@@ -1488,7 +2179,18 @@
       "小玉又聪明又可爱，是大家的开心果。"
     ],
     "ladder_check": "other",
-    "pic_desc": "聪明的小脑瓜很快解出了一道数学题。"
+    "pic_desc": "聪明的小脑瓜很快解出了一道数学题。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "金",
@@ -1512,7 +2214,22 @@
       "这条金鱼很漂亮，它的尾巴像一朵花。"
     ],
     "ladder_check": "other",
-    "pic_desc": "闪闪发光的金牌和金灿灿的奖杯。"
+    "pic_desc": "闪闪发光的金牌和金灿灿的奖杯。",
+    "has_crop": true,
+    "image_file": "金_p179.jpg",
+    "ascii_file": "jin_91D1_p179.jpg",
+    "crop_book_page": 179,
+    "crop_part": "03",
+    "crop_form": "金文",
+    "earliest_form": "金文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "金文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是金文。",
+    "form_mismatch": true
   },
   {
     "c": "漂",
@@ -1541,7 +2258,18 @@
       "这条金鱼很漂亮，它的尾巴像一朵花。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一片红叶在清澈的溪水面上缓缓漂流。"
+    "pic_desc": "一片红叶在清澈的溪水面上缓缓漂流。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "吐",
@@ -1565,7 +2293,18 @@
       "小猫吐了，我们带它去看兽医。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小鲸鱼在海面上喷吐出高高的水柱。"
+    "pic_desc": "小鲸鱼在海面上喷吐出高高的水柱。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "宠",
@@ -1589,7 +2328,21 @@
       "宠物日到了，我们带小狗去玩。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只受全家人喜爱照顾的可爱小宠物。"
+    "pic_desc": "一只受全家人喜爱照顾的可爱小宠物。",
+    "has_crop": true,
+    "image_file": "宠_p57.jpg",
+    "ascii_file": "chong_5BA0_p57.jpg",
+    "crop_book_page": 57,
+    "crop_part": "01",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "岛",
@@ -1615,7 +2368,21 @@
       "他梦见自己搭船去了一个小岛。",
       "爱心岛上的小动物对大明都很好。"
     ],
-    "pic_desc": "蔚蓝大海中央一座长满绿树的小岛。"
+    "pic_desc": "蔚蓝大海中央一座长满绿树的小岛。",
+    "has_crop": true,
+    "image_file": "岛_p73.jpg",
+    "ascii_file": "dao_5C9B_p73.jpg",
+    "crop_book_page": 73,
+    "crop_part": "02",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "欺",
@@ -1640,7 +2407,18 @@
       "我以前总是欺负小动物。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大家团结互助，绝不欺负弱小。"
+    "pic_desc": "大家团结互助，绝不欺负弱小。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "负",
@@ -1665,7 +2443,18 @@
       "我以前总是欺负小动物。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小马背上驮着两袋沉甸甸的粮食。"
+    "pic_desc": "小马背上驮着两袋沉甸甸的粮食。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "丢",
@@ -1686,7 +2475,18 @@
     "sentences": [],
     "type_note": "也见指事说",
     "ladder_check": "other",
-    "pic_desc": "小心看管自己的物品，不把玩具丢掉。"
+    "pic_desc": "小心看管自己的物品，不把玩具丢掉。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "梦",
@@ -1712,7 +2512,22 @@
       "他梦见自己搭船去了一个小岛。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小女孩做了一个飞向星空的甜甜美梦。"
+    "pic_desc": "小女孩做了一个飞向星空的甜甜美梦。",
+    "has_crop": true,
+    "image_file": "梦_p236.jpg",
+    "ascii_file": "meng_68A6_p236.jpg",
+    "crop_book_page": 236,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "围",
@@ -1738,7 +2553,18 @@
       "眼睛周围有大大的黑眼圈。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友们手拉手围成一个大圆圈。"
+    "pic_desc": "小朋友们手拉手围成一个大圆圈。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "迎",
@@ -1762,7 +2588,18 @@
       "欢迎来到爱心岛！"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友张开双臂欢快地迎接远方的客人。"
+    "pic_desc": "小朋友张开双臂欢快地迎接远方的客人。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "识",
@@ -1787,7 +2624,18 @@
       "他总是说：我只要认识它，能念就行了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "翻开书本，认识好多有趣的汉字。"
+    "pic_desc": "翻开书本，认识好多有趣的汉字。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "醒",
@@ -1811,7 +2659,18 @@
       "大明醒来后。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小鸟在树枝上唱歌，把森林从梦中唤醒。"
+    "pic_desc": "小鸟在树枝上唱歌，把森林从梦中唤醒。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "猫",
@@ -1841,7 +2700,18 @@
       "小猫问：请问，去我奶奶家怎么走？"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只喵喵叫、伸手玩毛线球的小花猫。"
+    "pic_desc": "一只喵喵叫、伸手玩毛线球的小花猫。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "爱",
@@ -1871,7 +2741,22 @@
       "小玉又聪明又可爱，是大家的开心果。"
     ],
     "ladder_check": "other",
-    "pic_desc": "妈妈紧紧抱住小宝宝，满眼都是关爱。"
+    "pic_desc": "妈妈紧紧抱住小宝宝，满眼都是关爱。",
+    "has_crop": true,
+    "image_file": "爱_p10.jpg",
+    "ascii_file": "ai_7231_p10.jpg",
+    "crop_book_page": 10,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "狗",
@@ -1898,7 +2783,18 @@
       "这只小狗很乖，它总是跟着主人。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只欢快摇着尾巴的小黄狗。"
+    "pic_desc": "一只欢快摇着尾巴的小黄狗。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "医",
@@ -1925,7 +2821,21 @@
       "小猫吐了，我们带它去看兽医。"
     ],
     "ladder_check": "other",
-    "pic_desc": "穿白大褂的医生阿姨温柔地看病。"
+    "pic_desc": "穿白大褂的医生阿姨温柔地看病。",
+    "has_crop": true,
+    "image_file": "医_p425.jpg",
+    "ascii_file": "yi_533B_p425.jpg",
+    "crop_book_page": 425,
+    "crop_part": "06",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "那",
@@ -1955,7 +2865,18 @@
       "右上角是樟宜机场，那里有很多飞机。"
     ],
     "ladder_check": "other",
-    "pic_desc": "画面呈现“那”字所代表的生动场景：“那”用来指远一点的东西，和“这”相反。近的是“这”，远的是“那”。"
+    "pic_desc": "画面呈现“那”字所代表的生动场景：“那”用来指远一点的东西，和“这”相反。近的是“这”，远的是“那”。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "兔",
@@ -1985,7 +2906,22 @@
       "小兔子饿了，主人喂它吃萝卜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只长着长耳朵、红眼睛的小白兔吃胡萝卜。"
+    "pic_desc": "一只长着长耳朵、红眼睛的小白兔吃胡萝卜。",
+    "has_crop": true,
+    "image_file": "兔_p354.jpg",
+    "ascii_file": "tu_5154_p354.jpg",
+    "crop_book_page": 354,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "前",
@@ -2015,7 +2951,22 @@
       "又过了几天，小蝌蚪长出了两条前腿。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小木船迎着朝阳向着前方划去。"
+    "pic_desc": "小木船迎着朝阳向着前方划去。",
+    "has_crop": true,
+    "image_file": "前_p279.jpg",
+    "ascii_file": "qian_524D_p279.jpg",
+    "crop_book_page": 279,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "难",
@@ -2046,7 +2997,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "遇到难题不退缩，努力寻找解决办法。"
+    "pic_desc": "遇到难题不退缩，努力寻找解决办法。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "易",
@@ -2074,7 +3036,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "这道算术题真简单容易，一算就对。"
+    "pic_desc": "这道算术题真简单容易，一算就对。",
+    "has_crop": true,
+    "image_file": "易_p431.jpg",
+    "ascii_file": "yi_6613_p431.jpg",
+    "crop_book_page": 431,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "粗",
@@ -2098,7 +3075,18 @@
       "粗和细，方和圆。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一棵粗壮的大树需要三个人才能抱住。"
+    "pic_desc": "一棵粗壮的大树需要三个人才能抱住。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "细",
@@ -2126,7 +3114,18 @@
       "绿豆发芽了，还长出了细细的根。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一根细细的缝衣线穿过小针眼。"
+    "pic_desc": "一根细细的缝衣线穿过小针眼。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "抢",
@@ -2149,7 +3148,21 @@
       "红娃娃抢着说：我可以画圆圆的太阳！"
     ],
     "ladder_check": "other",
-    "pic_desc": "大家排队取餐，不互相争抢。"
+    "pic_desc": "大家排队取餐，不互相争抢。",
+    "has_crop": true,
+    "image_file": "抢_p282.jpg",
+    "ascii_file": "qiang_62A2_p282.jpg",
+    "crop_book_page": 282,
+    "crop_part": "04",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "推",
@@ -2175,7 +3188,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "用双手轻轻推开教室的木门。"
+    "pic_desc": "用双手轻轻推开教室的木门。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "讨",
@@ -2202,7 +3226,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "大家围坐在书桌前共同探讨问题。"
+    "pic_desc": "大家围坐在书桌前共同探讨问题。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "厌",
@@ -2226,7 +3261,18 @@
       "讨厌和喜欢，争吵和和好。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小猫吃饱了小鱼干，满足地舔舔爪子。"
+    "pic_desc": "小猫吃饱了小鱼干，满足地舔舔爪子。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "争",
@@ -2252,7 +3298,22 @@
       "讨厌和喜欢，争吵和和好。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友们在赛跑中争先恐后奔向终点。"
+    "pic_desc": "小朋友们在赛跑中争先恐后奔向终点。",
+    "has_crop": true,
+    "image_file": "争_p479.jpg",
+    "ascii_file": "zheng_4E89_p479.jpg",
+    "crop_book_page": 479,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "吵",
@@ -2278,7 +3339,21 @@
       "讨厌和喜欢，争吵和和好。",
       "一天，几个蜡笔娃娃吵了起来。"
     ],
-    "pic_desc": "两个小猴子在树上叽叽喳喳吵闹。"
+    "pic_desc": "两个小猴子在树上叽叽喳喳吵闹。",
+    "has_crop": true,
+    "image_file": "吵_p49.jpg",
+    "ascii_file": "chao_5435_p49.jpg",
+    "crop_book_page": 49,
+    "crop_part": "01",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "弄",
@@ -2306,7 +3381,22 @@
       "姐姐把故事书弄破了，妹妹很难过。"
     ],
     "ladder_check": "other",
-    "pic_desc": "把玩具的内部结构拆开弄个明白。"
+    "pic_desc": "把玩具的内部结构拆开弄个明白。",
+    "has_crop": true,
+    "image_file": "弄_p260.jpg",
+    "ascii_file": "nong_5F04_p260.jpg",
+    "crop_book_page": 260,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "破",
@@ -2334,7 +3424,18 @@
       "少垃圾，少破坏，保护环境我最爱。"
     ],
     "ladder_check": "other",
-    "pic_desc": "气球嘭的一声破裂开了。"
+    "pic_desc": "气球嘭的一声破裂开了。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "撞",
@@ -2361,7 +3462,18 @@
       "哥哥把积木撞倒了，弟弟很伤心。"
     ],
     "ladder_check": "other",
-    "pic_desc": "两辆小玩具车在地板上轻轻碰撞。"
+    "pic_desc": "两辆小玩具车在地板上轻轻碰撞。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "倒",
@@ -2391,7 +3503,18 @@
       "小熊不停地往坑里倒水，直到水满了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小水杯不小心倒了，流出清凉的水。"
+    "pic_desc": "小水杯不小心倒了，流出清凉的水。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "伤",
@@ -2419,7 +3542,21 @@
       "哥哥把积木撞倒了，弟弟很伤心。"
     ],
     "ladder_check": "book",
-    "pic_desc": "小膝盖擦破了一点皮，包上创口贴。"
+    "pic_desc": "小膝盖擦破了一点皮，包上创口贴。",
+    "has_crop": true,
+    "image_file": "伤_p309.jpg",
+    "ascii_file": "shang_4F24_p309.jpg",
+    "crop_book_page": 309,
+    "crop_part": "05",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "容",
@@ -2446,7 +3583,18 @@
       "黄娃娃说：这个太容易了！"
     ],
     "ladder_check": "book",
-    "pic_desc": "小姑娘脸上洋溢着灿烂美好的笑容。"
+    "pic_desc": "小姑娘脸上洋溢着灿烂美好的笑容。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "能",
@@ -2476,7 +3624,22 @@
       "他总是说：我只要认识它，能念就行了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小熊举起沉重的木头，展示强大的力量。"
+    "pic_desc": "小熊举起沉重的木头，展示强大的力量。",
+    "has_crop": true,
+    "image_file": "能_p253.jpg",
+    "ascii_file": "neng_80FD_p253.jpg",
+    "crop_book_page": 253,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "晶",
@@ -2501,7 +3664,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "夜空中一颗颗亮晶晶的小星星闪闪发光。"
+    "pic_desc": "夜空中一颗颗亮晶晶的小星星闪闪发光。",
+    "has_crop": true,
+    "image_file": "晶_p182.jpg",
+    "ascii_file": "jing_6676_p182.jpg",
+    "crop_book_page": 182,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "道",
@@ -2530,7 +3708,22 @@
       "最后，它们又加上了一道美丽的彩虹。"
     ],
     "ladder_check": "book",
-    "pic_desc": "一条平坦宽阔的沥青马路伸向远方。"
+    "pic_desc": "一条平坦宽阔的沥青马路伸向远方。",
+    "has_crop": true,
+    "image_file": "道_p74.jpg",
+    "ascii_file": "dao_9053_p74.jpg",
+    "crop_book_page": 74,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "虹",
@@ -2556,7 +3749,22 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "雨过天晴，天边挂起一条七彩彩虹。"
+    "pic_desc": "雨过天晴，天边挂起一条七彩彩虹。",
+    "has_crop": true,
+    "image_file": "虹_p138.jpg",
+    "ascii_file": "hong_8679_p138.jpg",
+    "crop_book_page": 138,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "笔",
@@ -2586,7 +3794,18 @@
       "上课了，老师让同学们练习写笔画。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只竹制的毛笔沾上墨水在纸上写字。"
+    "pic_desc": "一只竹制的毛笔沾上墨水在纸上写字。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "作",
@@ -2617,7 +3836,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "小女孩端坐在书桌前认真写作业。"
+    "pic_desc": "小女孩端坐在书桌前认真写作业。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "草",
@@ -2647,7 +3877,22 @@
     ],
     "type_note": "也见象形说",
     "ladder_check": "book",
-    "pic_desc": "绿油油的小草在春风里摇摇晃晃。"
+    "pic_desc": "绿油油的小草在春风里摇摇晃晃。",
+    "has_crop": true,
+    "image_file": "草_p43.jpg",
+    "ascii_file": "cao_8349_p43.jpg",
+    "crop_book_page": 43,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "茄",
@@ -2671,7 +3916,21 @@
       "妈妈煮的番茄汤好喝极了！"
     ],
     "ladder_check": "other",
-    "pic_desc": "菜园里挂着紫莹莹、光溜溜的茄子。"
+    "pic_desc": "菜园里挂着紫莹莹、光溜溜的茄子。",
+    "has_crop": true,
+    "image_file": "茄_p283.jpg",
+    "ascii_file": "jia_8304_p283.jpg",
+    "crop_book_page": 283,
+    "crop_part": "04",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "紫",
@@ -2691,7 +3950,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "一串串熟透的紫色葡萄挂在藤架上。"
+    "pic_desc": "一串串熟透的紫色葡萄挂在藤架上。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "番",
@@ -2716,7 +3986,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "红彤彤、酸甜多汁的番茄切开放在盘子里。"
+    "pic_desc": "红彤彤、酸甜多汁的番茄切开放在盘子里。",
+    "has_crop": true,
+    "image_file": "番_p92.jpg",
+    "ascii_file": "fan_756A_p92.jpg",
+    "crop_book_page": 92,
+    "crop_part": "02",
+    "crop_form": "金文",
+    "earliest_form": "金文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "金文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是金文。",
+    "form_mismatch": true
   },
   {
     "c": "芽",
@@ -2742,7 +4027,18 @@
       "绿豆发芽了，还长出了细细的根。"
     ],
     "ladder_check": "other",
-    "pic_desc": "春风吹过，小树枝头吐出绿油油的嫩芽。"
+    "pic_desc": "春风吹过，小树枝头吐出绿油油的嫩芽。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "扁",
@@ -2767,7 +4063,18 @@
       "包菜圆，扁豆扁，苦瓜苦，玉米甜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "篱笆上挂着长长的、绿油油的扁豆。"
+    "pic_desc": "篱笆上挂着长长的、绿油油的扁豆。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "玉",
@@ -2794,7 +4101,22 @@
       "小玉又聪明又可爱，是大家的开心果。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一块温润光洁、晶莹剔透的绿翡翠玉石。"
+    "pic_desc": "一块温润光洁、晶莹剔透的绿翡翠玉石。",
+    "has_crop": true,
+    "image_file": "玉_p450.jpg",
+    "ascii_file": "yu_7389_p450.jpg",
+    "crop_book_page": 450,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "比",
@@ -2822,7 +4144,22 @@
       "大表哥今年二十一岁，比我大十二岁。"
     ],
     "ladder_check": "other",
-    "pic_desc": "两个小朋友站在一起比一比谁更高。"
+    "pic_desc": "两个小朋友站在一起比一比谁更高。",
+    "has_crop": true,
+    "image_file": "比_p27.jpg",
+    "ascii_file": "bi_6BD4_p27.jpg",
+    "crop_book_page": 27,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "伯",
@@ -2848,7 +4185,18 @@
       "牛伯伯教小动物种地。",
       "伯伯觉得萝卜汤比白菜汤好喝。"
     ],
-    "pic_desc": "和蔼可亲的伯伯笑着向小朋友打招呼。"
+    "pic_desc": "和蔼可亲的伯伯笑着向小朋友打招呼。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "萝",
@@ -2876,7 +4224,18 @@
       "小兔子饿了，主人喂它吃萝卜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "地里拔出一个大大的、红彤彤的白萝卜。"
+    "pic_desc": "地里拔出一个大大的、红彤彤的白萝卜。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "卜",
@@ -2905,7 +4264,22 @@
     ],
     "type_note": "也见指事说",
     "ladder_check": "other",
-    "pic_desc": "兔妈妈切好鲜嫩脆甜的红萝卜。"
+    "pic_desc": "兔妈妈切好鲜嫩脆甜的红萝卜。",
+    "has_crop": true,
+    "image_file": "卜_p36.jpg",
+    "ascii_file": "bu_535C_p36.jpg",
+    "crop_book_page": 36,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "煮",
@@ -2928,7 +4302,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "厨房里小铁锅盖冒着热气，煮着香喷喷的汤。"
+    "pic_desc": "厨房里小铁锅盖冒着热气，煮着香喷喷的汤。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "鼠",
@@ -2957,7 +4342,18 @@
       "大家帮小老鼠挖出了好多花生。",
       "小老鼠想：花生最香，我就学种花生吧。"
     ],
-    "pic_desc": "小松鼠用两只前爪捧着松果吃。"
+    "pic_desc": "小松鼠用两只前爪捧着松果吃。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "或",
@@ -2982,7 +4378,18 @@
       "奶奶可以上电脑课或者演艺课。"
     ],
     "ladder_check": "other",
-    "pic_desc": "课余时间，我们可以看书或者做运动。"
+    "pic_desc": "课余时间，我们可以看书或者做运动。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "者",
@@ -3007,7 +4414,22 @@
       "奶奶可以上电脑课或者演艺课。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一位老学者坐在书房里认真阅读。"
+    "pic_desc": "一位老学者坐在书房里认真阅读。",
+    "has_crop": true,
+    "image_file": "者_p476.jpg",
+    "ascii_file": "zhe_8005_p476.jpg",
+    "crop_book_page": 476,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "猪",
@@ -3035,7 +4457,18 @@
       "小山羊学种白菜，小猪学种黄瓜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一只胖乎乎、粉嘟嘟的小猪在草地上滚来滚去。"
+    "pic_desc": "一只胖乎乎、粉嘟嘟的小猪在草地上滚来滚去。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "拔",
@@ -3057,7 +4490,22 @@
       "小狗到河边拔了青草。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友们分两队，用力参加拔河比赛。"
+    "pic_desc": "小朋友们分两队，用力参加拔河比赛。",
+    "has_crop": true,
+    "image_file": "拔_p12.jpg",
+    "ascii_file": "ba_62D4_p12.jpg",
+    "crop_book_page": 12,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "摘",
@@ -3082,7 +4530,18 @@
       "小仙女从天上摘下了一颗星星。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小姑娘伸手采摘树上熟透的红苹果。"
+    "pic_desc": "小姑娘伸手采摘树上熟透的红苹果。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "挖",
@@ -3111,7 +4570,18 @@
       "大家帮小老鼠挖出了好多花生。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小男孩拿小铁铲在沙滩上挖城堡隧道。"
+    "pic_desc": "小男孩拿小铁铲在沙滩上挖城堡隧道。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "考",
@@ -3142,7 +4612,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "小朋友认真检查试卷，参加考试。"
+    "pic_desc": "小朋友认真检查试卷，参加考试。",
+    "has_crop": true,
+    "image_file": "考_p196.jpg",
+    "ascii_file": "kao_8003_p196.jpg",
+    "crop_book_page": 196,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "根",
@@ -3168,7 +4653,21 @@
       "绿豆发芽了，还长出了细细的根。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大树深深扎在泥土里的坚硬树根。"
+    "pic_desc": "大树深深扎在泥土里的坚硬树根。",
+    "has_crop": true,
+    "image_file": "根_p115.jpg",
+    "ascii_file": "gen_6839_p115.jpg",
+    "crop_book_page": 115,
+    "crop_part": "02",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "实",
@@ -3194,7 +4693,22 @@
       "花生是根还是果实？"
     ],
     "ladder_check": "other",
-    "pic_desc": "秋天到了，果树上结满了丰硕的果实。"
+    "pic_desc": "秋天到了，果树上结满了丰硕的果实。",
+    "has_crop": true,
+    "image_file": "实_p322.jpg",
+    "ascii_file": "shi_5B9E_p322.jpg",
+    "crop_book_page": 322,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "黄",
@@ -3225,7 +4739,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "黄澄澄的香蕉散发着甜甜的香味。"
+    "pic_desc": "黄澄澄的香蕉散发着甜甜的香味。",
+    "has_crop": true,
+    "image_file": "黄_p144.jpg",
+    "ascii_file": "huang_9EC4_p144.jpg",
+    "crop_book_page": 144,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "菜",
@@ -3255,7 +4784,21 @@
       "逛超市，去巴刹，可装水果可装菜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "盘子里盛着新鲜绿油油的炒青菜。"
+    "pic_desc": "盘子里盛着新鲜绿油油的炒青菜。",
+    "has_crop": true,
+    "image_file": "菜_p40.jpg",
+    "ascii_file": "cai_83DC_p40.jpg",
+    "crop_book_page": 40,
+    "crop_part": "01",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "瓜",
@@ -3285,7 +4828,22 @@
       "我有个办法，拿你买的玩具西瓜去。"
     ],
     "ladder_check": "other",
-    "pic_desc": "西瓜藤上结出一个大大的绿皮西瓜。"
+    "pic_desc": "西瓜藤上结出一个大大的绿皮西瓜。",
+    "has_crop": true,
+    "image_file": "瓜_p122.jpg",
+    "ascii_file": "gua_74DC_p122.jpg",
+    "crop_book_page": 122,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "甜",
@@ -3311,7 +4869,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "一口咬下红彤彤的熟透西瓜，味道真甜。"
+    "pic_desc": "一口咬下红彤彤的熟透西瓜，味道真甜。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "哭",
@@ -3336,7 +4905,21 @@
       "幼苗快干死了，弟弟哭了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小弟弟跌倒了，委屈地呜呜大哭。"
+    "pic_desc": "小弟弟跌倒了，委屈地呜呜大哭。",
+    "has_crop": true,
+    "image_file": "哭_p198.jpg",
+    "ascii_file": "ku_54ED_p198.jpg",
+    "crop_book_page": 198,
+    "crop_part": "03",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "黑",
@@ -3366,7 +4949,22 @@
       "爬上山坡，就到黑熊住的山洞了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "黑夜里一只黑色的羽毛小鸟在树枝上憩息。"
+    "pic_desc": "黑夜里一只黑色的羽毛小鸟在树枝上憩息。",
+    "has_crop": true,
+    "image_file": "黑_p136.jpg",
+    "ascii_file": "hei_9ED1_p136.jpg",
+    "crop_book_page": 136,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "持",
@@ -3391,7 +4989,18 @@
       "保持安静，不许大声说话。"
     ],
     "ladder_check": "other",
-    "pic_desc": "无论遇到什么困难，都要坚持不懈。"
+    "pic_desc": "无论遇到什么困难，都要坚持不懈。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "静",
@@ -3417,7 +5026,18 @@
       "保持安静，不许大声说话。"
     ],
     "ladder_check": "other",
-    "pic_desc": "图书馆里大家都在安静地阅读书本。"
+    "pic_desc": "图书馆里大家都在安静地阅读书本。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "绘",
@@ -3441,7 +5061,18 @@
       "这本绘本很有趣，我借过好多次。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小画家拿彩笔在画纸上描绘美丽的彩虹。"
+    "pic_desc": "小画家拿彩笔在画纸上描绘美丽的彩虹。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "趣",
@@ -3468,7 +5099,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "做科学小实验充满无穷的乐趣。"
+    "pic_desc": "做科学小实验充满无穷的乐趣。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "借",
@@ -3492,7 +5134,18 @@
       "这本绘本很有趣，我借过好多次。"
     ],
     "ladder_check": "other",
-    "pic_desc": "向图书管理员阿姨借阅一本有趣的绘本。"
+    "pic_desc": "向图书管理员阿姨借阅一本有趣的绘本。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "次",
@@ -3518,7 +5171,18 @@
       "这本绘本很有趣，我借过好多次。"
     ],
     "ladder_check": "other",
-    "pic_desc": "每一次练习都有新的收获与进步。"
+    "pic_desc": "每一次练习都有新的收获与进步。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "英",
@@ -3542,7 +5206,18 @@
       "这首英语歌很好听，我听过几遍。"
     ],
     "ladder_check": "other",
-    "pic_desc": "英勇的消防员叔叔消灭了火灾。"
+    "pic_desc": "英勇的消防员叔叔消灭了火灾。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "遍",
@@ -3568,7 +5243,18 @@
       "这首英语歌很好听，我听过几遍。"
     ],
     "ladder_check": "other",
-    "pic_desc": "我和爸爸妈妈游遍了美丽的花园城市。"
+    "pic_desc": "我和爸爸妈妈游遍了美丽的花园城市。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "架",
@@ -3594,7 +5280,18 @@
       "请把书放回书架上。"
     ],
     "ladder_check": "other",
-    "pic_desc": "书架上整整齐齐地摆放着各种儿童故事书。"
+    "pic_desc": "书架上整整齐齐地摆放着各种儿童故事书。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "箱",
@@ -3620,7 +5317,18 @@
       "组屋楼下并排放着几个回收箱。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一个装满整理好的玩具的大玩具箱。"
+    "pic_desc": "一个装满整理好的玩具的大玩具箱。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "盒",
@@ -3648,7 +5356,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "一个精致的铁盒里装着色彩鲜艳的彩色铅笔。"
+    "pic_desc": "一个精致的铁盒里装着色彩鲜艳的彩色铅笔。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "案",
@@ -3675,7 +5394,18 @@
       "上面有狮子和老虎的图案。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大家围坐在木桌旁讨论活动方案。"
+    "pic_desc": "大家围坐在木桌旁讨论活动方案。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "附",
@@ -3699,7 +5429,18 @@
       "我家附近有一个图书馆。"
     ],
     "ladder_check": "other",
-    "pic_desc": "我家附近有一座漂亮的阳光公园。"
+    "pic_desc": "我家附近有一座漂亮的阳光公园。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "近",
@@ -3723,7 +5464,21 @@
       "我家附近有一个图书馆。"
     ],
     "ladder_check": "other",
-    "pic_desc": "学校离我家很近，走路只要五分钟。"
+    "pic_desc": "学校离我家很近，走路只要五分钟。",
+    "has_crop": true,
+    "image_file": "近_p180.jpg",
+    "ascii_file": "jin_8FD1_p180.jpg",
+    "crop_book_page": 180,
+    "crop_part": "03",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "满",
@@ -3753,7 +5508,18 @@
       "小熊不停地往坑里倒水，直到水满了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小玻璃杯里装满了甜甜的橙汁。"
+    "pic_desc": "小玻璃杯里装满了甜甜的橙汁。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "始",
@@ -3780,7 +5546,18 @@
       "每天吃了晚饭，爸爸就开始折衣服。"
     ],
     "ladder_check": "other",
-    "pic_desc": "哨声响起，百米赛跑正式开始了。"
+    "pic_desc": "哨声响起，百米赛跑正式开始了。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "样",
@@ -3810,7 +5587,18 @@
       "我们总是这样对爸爸妈妈说。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大家都向讲礼貌的好孩子学习榜样。"
+    "pic_desc": "大家都向讲礼貌的好孩子学习榜样。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "候",
@@ -3839,7 +5627,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "book",
-    "pic_desc": "放学的时候，妈妈在门口等我。"
+    "pic_desc": "放学的时候，妈妈在门口等我。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "知",
@@ -3867,7 +5666,18 @@
       "只有我和收到卡片的人知道。"
     ],
     "ladder_check": "other",
-    "pic_desc": "通过读书，我知道了太阳系八大行星的秘密。"
+    "pic_desc": "通过读书，我知道了太阳系八大行星的秘密。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "指",
@@ -3896,7 +5706,18 @@
       "小安竖起大拇指说：画得真不错！"
     ],
     "ladder_check": "other",
-    "pic_desc": "伸出食指指着书上的生字念读。"
+    "pic_desc": "伸出食指指着书上的生字念读。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "声",
@@ -3926,7 +5747,22 @@
       "爸爸听见笑声，说：是你们啊！"
     ],
     "ladder_check": "other",
-    "pic_desc": "小鸟在树枝上发出清脆悦耳的叫声。"
+    "pic_desc": "小鸟在树枝上发出清脆悦耳的叫声。",
+    "has_crop": true,
+    "image_file": "声_p317.jpg",
+    "ascii_file": "sheng_58F0_p317.jpg",
+    "crop_book_page": 317,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "话",
@@ -3957,7 +5793,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "两个好朋友手拉手高兴地说着悄悄话。"
+    "pic_desc": "两个好朋友手拉手高兴地说着悄悄话。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "首",
@@ -3985,7 +5832,22 @@
       "这首英语歌很好听，我听过几遍。"
     ],
     "ladder_check": "other",
-    "pic_desc": "站在队伍的最前面，首先跨出第一步。"
+    "pic_desc": "站在队伍的最前面，首先跨出第一步。",
+    "has_crop": true,
+    "image_file": "首_p328.jpg",
+    "ascii_file": "shou_9996_p328.jpg",
+    "crop_book_page": 328,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "故",
@@ -4016,7 +5878,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "临睡前，妈妈给我讲了一个动听的童话故事。"
+    "pic_desc": "临睡前，妈妈给我讲了一个动听的童话故事。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "事",
@@ -4046,7 +5919,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "book",
-    "pic_desc": "自己的事情自己做，养成好习惯。"
+    "pic_desc": "自己的事情自己做，养成好习惯。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "具",
@@ -4075,7 +5959,22 @@
       "收拾文具和书包，穿好衣服和鞋子。"
     ],
     "ladder_check": "other",
-    "pic_desc": "书包里装齐了铅笔、尺子等文具。"
+    "pic_desc": "书包里装齐了铅笔、尺子等文具。",
+    "has_crop": true,
+    "image_file": "具_p190.jpg",
+    "ascii_file": "ju_5177_p190.jpg",
+    "crop_book_page": 190,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "逛",
@@ -4098,7 +5997,21 @@
       "逛超市，去巴刹，可装水果可装菜。"
     ],
     "ladder_check": "other",
-    "pic_desc": "周末和爸爸妈妈一起去逛商场。"
+    "pic_desc": "周末和爸爸妈妈一起去逛商场。",
+    "has_crop": true,
+    "image_file": "逛_p126.jpg",
+    "ascii_file": "guang_901B_p126.jpg",
+    "crop_book_page": 126,
+    "crop_part": "02",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "夜",
@@ -4124,7 +6037,22 @@
       "一到夜晚就热闹起来。",
       "引来一群群逛夜市的人。"
     ],
-    "pic_desc": "夜幕降临，弯弯的月亮挂在夜空中。"
+    "pic_desc": "夜幕降临，弯弯的月亮挂在夜空中。",
+    "has_crop": true,
+    "image_file": "夜_p424.jpg",
+    "ascii_file": "ye_591C_p424.jpg",
+    "crop_book_page": 424,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "市",
@@ -4152,7 +6080,18 @@
       "小黄鸟飞过了市区，飞过了植物园。"
     ],
     "ladder_check": "book",
-    "pic_desc": "热闹的夜市街头挂满了灯笼，人山人海。"
+    "pic_desc": "热闹的夜市街头挂满了灯笼，人山人海。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "烤",
@@ -4175,7 +6114,18 @@
       "除了烤香肠，我也喜欢吃炸鸡翅。"
     ],
     "ladder_check": "other",
-    "pic_desc": "刚烤好的香喷喷面包散发着奶香。"
+    "pic_desc": "刚烤好的香喷喷面包散发着奶香。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "肠",
@@ -4200,7 +6150,18 @@
       "除了烤香肠，我也喜欢吃炸鸡翅。"
     ],
     "ladder_check": "other",
-    "pic_desc": "盘子里装着两条煎得金黄热腾腾的香肠。"
+    "pic_desc": "盘子里装着两条煎得金黄热腾腾的香肠。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "翅",
@@ -4225,7 +6186,18 @@
       "除了烤香肠，我也喜欢吃炸鸡翅。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小鸟展翅高飞，在空中划过优美的弧线。"
+    "pic_desc": "小鸟展翅高飞，在空中划过优美的弧线。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "射",
@@ -4247,7 +6219,22 @@
       "除了射气球，我也喜欢玩碰碰车。"
     ],
     "ladder_check": "other",
-    "pic_desc": "灿烂的阳光照射在金黄色的沙滩上。"
+    "pic_desc": "灿烂的阳光照射在金黄色的沙滩上。",
+    "has_crop": true,
+    "image_file": "射_p313.jpg",
+    "ascii_file": "she_5C04_p313.jpg",
+    "crop_book_page": 313,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "碰",
@@ -4271,7 +6258,18 @@
       "除了射气球，我也喜欢玩碰碰车。"
     ],
     "ladder_check": "other",
-    "pic_desc": "在路口碰见了同班同学，互相招呼。"
+    "pic_desc": "在路口碰见了同班同学，互相招呼。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "饮",
@@ -4295,7 +6293,22 @@
       "有的在买饮料。"
     ],
     "ladder_check": "other",
-    "pic_desc": "运动过后，喝一杯温开水补充水分。"
+    "pic_desc": "运动过后，喝一杯温开水补充水分。",
+    "has_crop": true,
+    "image_file": "饮_p436.jpg",
+    "ascii_file": "yin_996E_p436.jpg",
+    "crop_book_page": 436,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "料",
@@ -4321,7 +6334,22 @@
       "用它代替塑料袋。"
     ],
     "ladder_check": "other",
-    "pic_desc": "做手工前准备好剪刀和彩色纸张材料。"
+    "pic_desc": "做手工前准备好剪刀和彩色纸张材料。",
+    "has_crop": true,
+    "image_file": "料_p212.jpg",
+    "ascii_file": "liao_6599_p212.jpg",
+    "crop_book_page": 212,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "踢",
@@ -4347,7 +6375,18 @@
       "踢踢毽子跳跳绳。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友们在草地上开心踢足球。"
+    "pic_desc": "小朋友们在草地上开心踢足球。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "筝",
@@ -4374,7 +6413,18 @@
       "哥哥可以骑脚踏车或者放风筝。"
     ],
     "ladder_check": "other",
-    "pic_desc": "春风吹来，高高放起一只漂亮的蝴蝶风筝。"
+    "pic_desc": "春风吹来，高高放起一只漂亮的蝴蝶风筝。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "但",
@@ -4399,7 +6449,18 @@
       "他不但没有失去铁斧头。"
     ],
     "ladder_check": "other",
-    "pic_desc": "虽然天气很热，但是大家依然坚持训练。"
+    "pic_desc": "虽然天气很热，但是大家依然坚持训练。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "闹",
@@ -4428,7 +6489,18 @@
       "闹钟是我的好朋友，它每天叫我起床。"
     ],
     "ladder_check": "other",
-    "pic_desc": "闹钟叮铃铃响起，唤醒美好的一天。"
+    "pic_desc": "闹钟叮铃铃响起，唤醒美好的一天。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "摊",
@@ -4454,7 +6526,18 @@
       "游戏摊的花样多又多。",
       "五颜六色的灯光，照亮一排排的摊位。"
     ],
-    "pic_desc": "街道旁摆着一个个卖小吃和玩具的小摊。"
+    "pic_desc": "街道旁摆着一个个卖小吃和玩具的小摊。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "阵",
@@ -4481,7 +6564,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "一阵清凉的晚风吹走了夏日的炎热。"
+    "pic_desc": "一阵清凉的晚风吹走了夏日的炎热。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "引",
@@ -4507,7 +6601,22 @@
       "引来一群群逛夜市的人。"
     ],
     "ladder_check": "other",
-    "pic_desc": "精彩的偶戏表演吸引了好多小朋友围观。"
+    "pic_desc": "精彩的偶戏表演吸引了好多小朋友围观。",
+    "has_crop": true,
+    "image_file": "引_p435.jpg",
+    "ascii_file": "yin_5F15_p435.jpg",
+    "crop_book_page": 435,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "群",
@@ -4533,7 +6642,21 @@
       "引来一群群逛夜市的人。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一群小黄鸭欢快地在池塘里游水。"
+    "pic_desc": "一群小黄鸭欢快地在池塘里游水。",
+    "has_crop": true,
+    "image_file": "群_p295.jpg",
+    "ascii_file": "qun_7FA4_p295.jpg",
+    "crop_book_page": 295,
+    "crop_part": "05",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "套",
@@ -4553,7 +6676,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "游乐园里小朋友玩投掷套圈游戏。"
+    "pic_desc": "游乐园里小朋友玩投掷套圈游戏。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "圈",
@@ -4583,7 +6717,18 @@
       "眼睛周围有大大的黑眼圈。"
     ],
     "ladder_check": "other",
-    "pic_desc": "在地面上用粉笔画出一个圆圈。"
+    "pic_desc": "在地面上用粉笔画出一个圆圈。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "炸",
@@ -4610,7 +6755,18 @@
       "除了烤香肠，我也喜欢吃炸鸡翅。"
     ],
     "ladder_check": "other",
-    "pic_desc": "金黄酥脆的炸薯条蘸着番茄酱。"
+    "pic_desc": "金黄酥脆的炸薯条蘸着番茄酱。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "鸡",
@@ -4640,7 +6796,22 @@
       "姐姐喜欢吃鸡饭，妹妹喜欢吃鸭面。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大公鸡大声打鸣，太阳升起来了。"
+    "pic_desc": "大公鸡大声打鸣，太阳升起来了。",
+    "has_crop": true,
+    "image_file": "鸡_p152.jpg",
+    "ascii_file": "ji_9E21_p152.jpg",
+    "crop_book_page": 152,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "球",
@@ -4670,7 +6841,18 @@
       "除了射气球，我也喜欢玩碰碰车。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小朋友在球场上拍打欢快蹦跳的皮球。"
+    "pic_desc": "小朋友在球场上拍打欢快蹦跳的皮球。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "楼",
@@ -4699,7 +6881,18 @@
       "你下楼往右转，就看到办公室了。"
     ],
     "ladder_check": "book",
-    "pic_desc": "一栋栋高耸入云的现代大楼。"
+    "pic_desc": "一栋栋高耸入云的现代大楼。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "灯",
@@ -4729,7 +6922,18 @@
       "整个晚上，灯一直亮着，浪费了很多电。"
     ],
     "ladder_check": "other",
-    "pic_desc": "夜晚马路两旁整齐的路灯亮了起来。"
+    "pic_desc": "夜晚马路两旁整齐的路灯亮了起来。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "排",
@@ -4758,7 +6962,18 @@
       "你去排队，我去找座位。"
     ],
     "ladder_check": "book",
-    "pic_desc": "大家按身高高矮自觉排成整齐的队伍。"
+    "pic_desc": "大家按身高高矮自觉排成整齐的队伍。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "馆",
@@ -4786,7 +7001,18 @@
       "图书馆都有读书会的活动。"
     ],
     "ladder_check": "book",
-    "pic_desc": "我们在安静的图书馆里借阅图书。"
+    "pic_desc": "我们在安静的图书馆里借阅图书。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "院",
@@ -4806,7 +7032,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "花圃满院子开满了五颜六色的鲜花。"
+    "pic_desc": "花圃满院子开满了五颜六色的鲜花。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "植",
@@ -4831,7 +7068,18 @@
       "我们去了植物园，还去了东海岸公园。"
     ],
     "ladder_check": "other",
-    "pic_desc": "我们在植树节种下一棵小树苗。"
+    "pic_desc": "我们在植树节种下一棵小树苗。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "海",
@@ -4855,7 +7103,21 @@
       "我们去了植物园，还去了东海岸公园。"
     ],
     "ladder_check": "other",
-    "pic_desc": "蔚蓝广阔的大海上迎面吹来阵阵海风。"
+    "pic_desc": "蔚蓝广阔的大海上迎面吹来阵阵海风。",
+    "has_crop": true,
+    "image_file": "海_p130.jpg",
+    "ascii_file": "hai_6D77_p130.jpg",
+    "crop_book_page": 130,
+    "crop_part": "02",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "岸",
@@ -4881,7 +7143,18 @@
       "我们去了植物园，还去了东海岸公园。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小船轻轻靠在碧绿的江岸边。"
+    "pic_desc": "小船轻轻靠在碧绿的江岸边。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "参",
@@ -4909,7 +7182,22 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "小同学们排队去科技馆参观展览。"
+    "pic_desc": "小同学们排队去科技馆参观展览。",
+    "has_crop": true,
+    "image_file": "参_p40.jpg",
+    "ascii_file": "can_53C2_p40.jpg",
+    "crop_book_page": 40,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "观",
@@ -4935,7 +7223,21 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "用放大镜仔细观察小蚂蚁搬食物。"
+    "pic_desc": "用放大镜仔细观察小蚂蚁搬食物。",
+    "has_crop": true,
+    "image_file": "观_p124.jpg",
+    "ascii_file": "guan_89C2_p124.jpg",
+    "crop_book_page": 124,
+    "crop_part": "02",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "野",
@@ -4955,7 +7257,22 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "周末全家人一起去野外郊游公园露营。"
+    "pic_desc": "周末全家人一起去野外郊游公园露营。",
+    "has_crop": true,
+    "image_file": "野_p422.jpg",
+    "ascii_file": "ye_91CE_p422.jpg",
+    "crop_book_page": 422,
+    "crop_part": "06",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "泳",
@@ -4975,7 +7292,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "夏天在清凉的游泳池里欢快地游泳。"
+    "pic_desc": "夏天在清凉的游泳池里欢快地游泳。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "沙",
@@ -5000,7 +7328,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "金黄色的沙滩上布满了小贝壳。"
+    "pic_desc": "金黄色的沙滩上布满了小贝壳。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "捡",
@@ -5022,7 +7361,18 @@
       "我们还捡了贝壳。"
     ],
     "ladder_check": "other",
-    "pic_desc": "弯下腰把地上的碎纸屑捡起来扔进垃圾桶。"
+    "pic_desc": "弯下腰把地上的碎纸屑捡起来扔进垃圾桶。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "壳",
@@ -5046,7 +7396,18 @@
       "我们还捡了贝壳。"
     ],
     "ladder_check": "other",
-    "pic_desc": "海滩上捡到一个纹理美丽的硬贝壳。"
+    "pic_desc": "海滩上捡到一个纹理美丽的硬贝壳。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "区",
@@ -5070,7 +7431,22 @@
       "小黄鸟飞过了市区，飞过了植物园。"
     ],
     "ladder_check": "other",
-    "pic_desc": "我们居住在干净宜居的新社区里。"
+    "pic_desc": "我们居住在干净宜居的新社区里。",
+    "has_crop": true,
+    "image_file": "区_p291.jpg",
+    "ascii_file": "qu_533A_p291.jpg",
+    "crop_book_page": 291,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "处",
@@ -5090,7 +7466,22 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "公园里到处都盛开着美丽的花朵。"
+    "pic_desc": "公园里到处都盛开着美丽的花朵。",
+    "has_crop": true,
+    "image_file": "处_p59.jpg",
+    "ascii_file": "chu_5904_p59.jpg",
+    "crop_book_page": 59,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "街",
@@ -5111,7 +7502,21 @@
     "sentences": [],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "宽阔的街道两侧耸立着繁华的商店。"
+    "pic_desc": "宽阔的街道两侧耸立着繁华的商店。",
+    "has_crop": true,
+    "image_file": "街_p175.jpg",
+    "ascii_file": "jie_8857_p175.jpg",
+    "crop_book_page": 175,
+    "crop_part": "03",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "整",
@@ -5139,7 +7544,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "把课桌上的文具和书本整理得整整齐齐。"
+    "pic_desc": "把课桌上的文具和书本整理得整整齐齐。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "齐",
@@ -5161,7 +7577,22 @@
       "整整齐齐的。"
     ],
     "ladder_check": "other",
-    "pic_desc": "同学们排着整齐的队伍步入操场。"
+    "pic_desc": "同学们排着整齐的队伍步入操场。",
+    "has_crop": true,
+    "image_file": "齐_p273.jpg",
+    "ascii_file": "qi_9F50_p273.jpg",
+    "crop_book_page": 273,
+    "crop_part": "04",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "离",
@@ -5186,7 +7617,22 @@
       "我不想离开了，我们住下来吧。"
     ],
     "ladder_check": "other",
-    "pic_desc": "离开教室之前，记得关好电灯和窗户。"
+    "pic_desc": "离开教室之前，记得关好电灯和窗户。",
+    "has_crop": true,
+    "image_file": "离_p205.jpg",
+    "ascii_file": "li_79BB_p205.jpg",
+    "crop_book_page": 205,
+    "crop_part": "03",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "城",
@@ -5206,7 +7652,22 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "夜幕下的城市华灯璀璨，美丽动人。"
+    "pic_desc": "夜幕下的城市华灯璀璨，美丽动人。",
+    "has_crop": true,
+    "image_file": "城_p54.jpg",
+    "ascii_file": "cheng_57CE_p54.jpg",
+    "crop_book_page": 54,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "步",
@@ -5236,7 +7697,22 @@
       "外婆说：祝你们快高长大，学业进步！"
     ],
     "ladder_check": "other",
-    "pic_desc": "一步一步踏实地沿着小路散步。"
+    "pic_desc": "一步一步踏实地沿着小路散步。",
+    "has_crop": true,
+    "image_file": "步_p38.jpg",
+    "ascii_file": "bu_6B65_p38.jpg",
+    "crop_book_page": 38,
+    "crop_part": "01",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "游",
@@ -5264,7 +7740,22 @@
       "唱歌有，游戏没有。"
     ],
     "type_note": "也见形声说",
-    "pic_desc": "小鱼在荷叶间自由自在地游动。"
+    "pic_desc": "小鱼在荷叶间自由自在地游动。",
+    "has_crop": true,
+    "image_file": "游_p443.jpg",
+    "ascii_file": "you_6E38_p443.jpg",
+    "crop_book_page": 443,
+    "crop_part": "07",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "现",
@@ -5293,7 +7784,18 @@
       "果然，我答错了，老师却没发现。"
     ],
     "ladder_check": "other",
-    "pic_desc": "画面呈现“现”字所代表的生动场景：左边是“王”（玉），右边是“见”。美玉一擦，就显出光亮被人看见，所以“现”表示出现，也表示现在。"
+    "pic_desc": "画面呈现“现”字所代表的生动场景：左边是“王”（玉），右边是“见”。美玉一擦，就显出光亮被人看见，所以“现”表示出现，也表示现在。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "树",
@@ -5324,7 +7826,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "book",
-    "pic_desc": "大树枝繁叶茂，为鸟儿遮风挡雨。"
+    "pic_desc": "大树枝繁叶茂，为鸟儿遮风挡雨。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "净",
@@ -5350,7 +7863,18 @@
       "客人走了，我把桌子收拾干净。"
     ],
     "ladder_check": "other",
-    "pic_desc": "洗手后用干净的面巾把手擦干。"
+    "pic_desc": "洗手后用干净的面巾把手擦干。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "浇",
@@ -5374,7 +7898,18 @@
       "浇水后，幼苗又活了，弟弟笑了。"
     ],
     "ladder_check": "other",
-    "pic_desc": "拿小水壶给阳台上的小花浇水。"
+    "pic_desc": "拿小水壶给阳台上的小花浇水。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "桶",
@@ -5394,7 +7929,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "小塑料桶里装满了清澈的水。"
+    "pic_desc": "小塑料桶里装满了清澈的水。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "厕",
@@ -5418,7 +7964,18 @@
       "我可以去厕所吗？"
     ],
     "ladder_check": "other",
-    "pic_desc": "养成饭前便后洗手卫生好习惯。"
+    "pic_desc": "养成饭前便后洗手卫生好习惯。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "所",
@@ -5442,7 +7999,22 @@
       "我可以去厕所吗？"
     ],
     "ladder_check": "other",
-    "pic_desc": "公共场所里保持安静文明礼貌。"
+    "pic_desc": "公共场所里保持安静文明礼貌。",
+    "has_crop": true,
+    "image_file": "所_p343.jpg",
+    "ascii_file": "suo_6240_p343.jpg",
+    "crop_book_page": 343,
+    "crop_part": "05",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "告",
@@ -5469,7 +8041,22 @@
       "我一直在想，要不要告诉老师呢？"
     ],
     "ladder_check": "other",
-    "pic_desc": "遇到困难主动开口告诉老师和家长。"
+    "pic_desc": "遇到困难主动开口告诉老师和家长。",
+    "has_crop": true,
+    "image_file": "告_p113.jpg",
+    "ascii_file": "gao_544A_p113.jpg",
+    "crop_book_page": 113,
+    "crop_part": "02",
+    "crop_form": "甲骨文",
+    "earliest_form": "甲骨文",
+    "evolution_needs_check": false,
+    "evolution": [
+      "甲骨文",
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "",
+    "form_mismatch": false
   },
   {
     "c": "诉",
@@ -5496,7 +8083,18 @@
       "我一直在想，要不要告诉老师呢？"
     ],
     "ladder_check": "other",
-    "pic_desc": "向好朋友倾诉心中的快乐与小秘密。"
+    "pic_desc": "向好朋友倾诉心中的快乐与小秘密。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "珍",
@@ -5521,7 +8119,21 @@
       "珍惜水就是珍惜生命。"
     ],
     "ladder_check": "other",
-    "pic_desc": "珍惜宝贵的时间，好好学习天天向上。"
+    "pic_desc": "珍惜宝贵的时间，好好学习天天向上。",
+    "has_crop": true,
+    "image_file": "珍_p477.jpg",
+    "ascii_file": "zhen_73CD_p477.jpg",
+    "crop_book_page": 477,
+    "crop_part": "07",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": false
   },
   {
     "c": "惜",
@@ -5546,7 +8158,18 @@
       "珍惜水就是珍惜生命。"
     ],
     "ladder_check": "other",
-    "pic_desc": "爱惜书本，不随意折角涂鸦。"
+    "pic_desc": "爱惜书本，不随意折角涂鸦。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "滴",
@@ -5571,7 +8194,18 @@
       "水滴石穿，日积月累。"
     ],
     "ladder_check": "other",
-    "pic_desc": "清晨屋檐下滴答滴答落下透明的水滴。"
+    "pic_desc": "清晨屋檐下滴答滴答落下透明的水滴。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "约",
@@ -5595,7 +8229,18 @@
       "节约水不浪费。"
     ],
     "ladder_check": "other",
-    "pic_desc": "和小伙伴约定好下午一起去公园打球。"
+    "pic_desc": "和小伙伴约定好下午一起去公园打球。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "浪",
@@ -5622,7 +8267,18 @@
       "整个晚上，灯一直亮着，浪费了很多电。"
     ],
     "ladder_check": "other",
-    "pic_desc": "节约用水，绝不浪费一滴水资源。"
+    "pic_desc": "节约用水，绝不浪费一滴水资源。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "费",
@@ -5650,7 +8306,18 @@
     ],
     "type_note": "也见会意说",
     "ladder_check": "other",
-    "pic_desc": "养成勤俭节约的好习惯，不随便浪费钱。"
+    "pic_desc": "养成勤俭节约的好习惯，不随便浪费钱。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "流",
@@ -5675,7 +8342,18 @@
     ],
     "type_note": "也见形声说",
     "ladder_check": "other",
-    "pic_desc": "清澈的小溪水欢快地向远方流动。"
+    "pic_desc": "清澈的小溪水欢快地向远方流动。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "连",
@@ -5702,7 +8380,18 @@
       "后来，一连几天，她们谁也不理谁。"
     ],
     "ladder_check": "other",
-    "pic_desc": "淅淅沥沥的春雨接连下了好几天。"
+    "pic_desc": "淅淅沥沥的春雨接连下了好几天。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "线",
@@ -5732,7 +8421,18 @@
       "我说：奶奶，我们先买面线吧。"
     ],
     "ladder_check": "other",
-    "pic_desc": "用五彩斑斓的毛线编织暖和的手套。"
+    "pic_desc": "用五彩斑斓的毛线编织暖和的手套。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "断",
@@ -5760,7 +8460,18 @@
       "你只要不断努力，就能学得更好。"
     ],
     "ladder_check": "other",
-    "pic_desc": "细线拉扯过度不小心折断了。"
+    "pic_desc": "细线拉扯过度不小心折断了。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "猜",
@@ -5786,7 +8497,18 @@
       "贴好后，小安说：我出个谜语，你猜猜看。"
     ],
     "ladder_check": "other",
-    "pic_desc": "大家一起兴致勃勃地猜灯谜。"
+    "pic_desc": "大家一起兴致勃勃地猜灯谜。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "摇",
@@ -5812,7 +8534,18 @@
       "康康想了想，摇摇头。"
     ],
     "ladder_check": "other",
-    "pic_desc": "小狗一看见主人就欢快地摇尾巴。"
+    "pic_desc": "小狗一看见主人就欢快地摇尾巴。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "渴",
@@ -5832,7 +8565,18 @@
     "words": [],
     "sentences": [],
     "ladder_check": "other",
-    "pic_desc": "踢完球口渴了，喝一口温开水解渴。"
+    "pic_desc": "踢完球口渴了，喝一口温开水解渴。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "低",
@@ -5858,7 +8602,18 @@
       "康康听了，红着脸，低下了头。"
     ],
     "ladder_check": "other",
-    "pic_desc": "低头认认真真地在练习本上写字。"
+    "pic_desc": "低头认认真真地在练习本上写字。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "洗",
@@ -5886,7 +8641,21 @@
       "他洗手后，没关好水龙头，就去喝水。"
     ],
     "ladder_check": "other",
-    "pic_desc": "饭前便后用肥皂把双洁洗得干干净净。"
+    "pic_desc": "饭前便后用肥皂把双洁洗得干干净净。",
+    "has_crop": true,
+    "image_file": "洗_p380.jpg",
+    "ascii_file": "xi_6D17_p380.jpg",
+    "crop_book_page": 380,
+    "crop_part": "06",
+    "crop_form": "小篆",
+    "earliest_form": "小篆",
+    "evolution_needs_check": false,
+    "evolution": [
+      "小篆",
+      "楷书"
+    ],
+    "evolution_note": "这个字在甲骨文时期还没有出现，最早的字是小篆。",
+    "form_mismatch": true
   },
   {
     "c": "冲",
@@ -5916,7 +8685,18 @@
       "这时，七岁的曹冲想出了一个办法。"
     ],
     "ladder_check": "other",
-    "pic_desc": "炎热的夏天冲个凉水澡真舒服。"
+    "pic_desc": "炎热的夏天冲个凉水澡真舒服。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "活",
@@ -5945,7 +8725,18 @@
       "外婆说：你的生活中少不了它。"
     ],
     "ladder_check": "book",
-    "pic_desc": "活泼可爱的小树苗茁壮成长。"
+    "pic_desc": "活泼可爱的小树苗茁壮成长。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "忙",
@@ -5973,7 +8764,18 @@
       "它忙了一个上午，做了一大盘肉骨头。"
     ],
     "ladder_check": "other",
-    "pic_desc": "蜂群在花丛中飞来飞去忙着采蜜。"
+    "pic_desc": "蜂群在花丛中飞来飞去忙着采蜜。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "凉",
@@ -5998,7 +8800,18 @@
       "我马上跑到冲凉房去。"
     ],
     "ladder_check": "other",
-    "pic_desc": "一阵阵秋风吹来，天气渐渐凉快了。"
+    "pic_desc": "一阵阵秋风吹来，天气渐渐凉快了。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   },
   {
     "c": "脸",
@@ -6026,6 +8839,17 @@
       "康康听了，红着脸，低下了头。"
     ],
     "ladder_check": "other",
-    "pic_desc": "洗完脸后，小脸蛋红扑扑的精神爽朗。"
+    "pic_desc": "洗完脸后，小脸蛋红扑扑的精神爽朗。",
+    "has_crop": false,
+    "image_file": null,
+    "ascii_file": null,
+    "crop_book_page": null,
+    "crop_part": null,
+    "crop_form": null,
+    "earliest_form": null,
+    "evolution_needs_check": true,
+    "evolution": null,
+    "evolution_note": "这本书里没有这个字的图片，所以最早的字形还没有用图片确认，请用文字资料核对后再定。",
+    "form_mismatch": false
   }
 ]
