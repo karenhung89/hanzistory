@@ -171,7 +171,8 @@
         <div style="display:flex;gap:0.5rem;flex-wrap:wrap;"><button id="prev-char-btn">⬅ 上一个</button><button id="next-char-btn">下一个 ➡</button><button id="master-toggle-btn" class="btn-jade">☆ 我学会了</button></div>
       </div>
       <div class="section-title"><span class="student-only">🔍 看图变变变：古时候的画 ➔ 今天的汉字</span><span class="teacher-only">三阶段字形演变 (甲骨文 ➔ 小篆 ➔ 现代规范楷书)</span></div>
-      <div class="evolution-grid">
+      <div id="crop-box" style="margin-bottom:1rem;"></div>
+<div class="evolution-grid" id="evo-grid">
         <div class="stage-card">
           <div><div class="stage-header"><span class="stage-tag student-only">① 🦴 甲骨文 · 古人的画</span><span class="stage-tag teacher-only">① 甲骨文 (Oracle Bone)</span></div><div class="artifact-box"><div class="ancient-glyph-jgw" id="glyph-jgw">日</div></div></div>
           <p class="stage-desc" id="desc-jgw"></p>
@@ -237,7 +238,7 @@
 
     function normalizeRecord(r) {
       const e = r.script_evolution || {};
-      return {
+      return { ...r,
         c: (r.c || r.character || r.hanzi || r.char || r.word || r["汉字"] || "").toString().trim(),
         p: (r.p || r.pinyin || r["拼音"] || "").toString().trim(),
         book: (r.book || r.level || r["册次"] || "1A").toString().trim().toUpperCase(),
@@ -472,6 +473,7 @@
 
       document.getElementById("citation-text").textContent = "📚 出处参考：" + item.cite;
       document.getElementById("rhyme-text").textContent = item.rhyme || "（暂无配套识字口诀）";
+      renderCropAndLadder(item);
     }
 
     document.getElementById("btn-student-mode").onclick = () => applyMode("student");
@@ -481,6 +483,69 @@
       document.getElementById("char-grid-bar").classList.toggle("collapsed", isDrawerCollapsed);
       document.getElementById("drawer-arrow-btn").textContent = isDrawerCollapsed ? "▼ 展开列表" : "▲ 收起列表";
     };
+
+    function renderCropAndLadder(item) {
+  const grid = document.getElementById("evo-grid"), box = document.getElementById("crop-box");
+  const cards = [...grid.children], evo = item.evolution;
+  box.innerHTML = "";
+  // 重置
+  grid.style.gridTemplateColumns = "";
+  cards.forEach(c => { c.style.display = ""; const n = c.querySelector(".grey-note"); if (n) n.remove(); c.querySelector(".artifact-box").style.display = ""; });
+
+  // 图片：只有 has_crop 为 true 才显示，标签用 crop_form
+  if (item.has_crop && item.image_file) {
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "text-align:center;background:#FFF;border:1.5px solid var(--border);border-radius:12px;padding:0.8rem;";
+    const img = document.createElement("img");
+    img.src = "images/" + encodeURI(item.image_file);
+    img.alt = item.c;
+    img.style.cssText = "max-width:100%;max-height:260px;";
+    img.onerror = () => { img.replaceWith(Object.assign(document.createElement("div"), { textContent: "图片找不到：" + item.image_file })); };
+    const cap = document.createElement("div");
+    cap.style.cssText = "font-weight:700;margin-top:0.4rem;";
+    cap.textContent = item.crop_form;
+    wrap.append(img, cap);
+    if (item.form_mismatch) {
+      const t = document.createElement("div");
+      t.className = "teacher-only";
+      t.style.cssText = "color:var(--cinnabar);font-size:0.8rem;";
+      t.textContent = "⚠ 教师注意：图片字形与书中文字说明不一致";
+      wrap.append(t);
+    }
+    box.appendChild(wrap);
+  }
+
+  // 演变阶梯：只按 evolution 列表
+  if (!evo) {
+    grid.style.display = "none";
+    const p = document.createElement("p");
+    p.style.cssText = "color:var(--ink-muted);text-align:center;";
+    p.textContent = "图片待补充";
+    box.appendChild(p);
+    return;
+  }
+  grid.style.display = "grid";
+  const setLabel = (card, txt) => card.querySelectorAll(".stage-tag").forEach(t => t.textContent = txt);
+  // 去掉软件自己生成的字形，不冒充古文字
+  cards[0].querySelector(".artifact-box").style.display = "none";
+  cards[1].querySelector(".artifact-box").style.display = "none";
+  if (evo.length === 3) {
+    evo.forEach((lab, i) => setLabel(cards[i], lab));
+  } else if (evo[0] === "小篆") {
+    setLabel(cards[0], "甲骨文");
+    const n = document.createElement("p");
+    n.className = "grey-note stage-desc";
+    n.style.color = "#94A3B8";
+    n.textContent = item.evolution_note || "这个字在甲骨文时期还没有出现";
+    cards[0].appendChild(n);
+    cards[0].querySelector(".stage-desc:not(.grey-note)").textContent = "";
+    setLabel(cards[1], "小篆"); setLabel(cards[2], "楷书");
+  } else { // 印文, 楷书
+    setLabel(cards[0], evo[0]);
+    cards[1].style.display = "none";
+    grid.style.gridTemplateColumns = "repeat(2,1fr)";
+  }
+}
 
     function speakText(t) {
       if (!("speechSynthesis" in window)) return;
