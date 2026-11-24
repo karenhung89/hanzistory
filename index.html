@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>新加坡小学华文 · 汉字演变与识字平台 (欢乐伙伴 1A–3B)</title>
+  <!-- v14 (2026-11-24) TRIAL: flexible 6-stage ladder (JiaGuWen -> JinWen -> ZhanGuo (DaZhuan) -> XiaoZhuan -> LiShu -> KaiShu). Default view is still 3 cards; "expand all 6 stages" shows the full timeline with empty cards before the earliest form, and each expanded card can be hidden with its X button. Built on v13; also handles 4-stage chains (e.g. You) in the compact view. -->
 <!-- Google Fonts for authentic Simplified Chinese -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,7 @@
   <!-- Hanzi Writer CDN for automatic Singapore Simplified Chinese stroke order & interactive tracing -->
   <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
   <style>
-    @font-face { font-family: 'AutoJiaguwen'; src: local('FZJiaGuWen'), local('方正甲骨文'), local('FZZJ-JGW'), local('甲骨文'), local('Oracular'); font-display: swap; } /* v10: added FZJiaGuWen */
+    @font-face { font-family: 'AutoJiaguwen'; src: url('./FZJiaGuWen.ttf') format('truetype'), local('FZJiaGuWen'), local('方正甲骨文'), local('FZZJ-JGW'), local('甲骨文'), local('Oracular'); font-display: swap; } /* v11: load FZJiaGuWen.ttf from the same folder, so it works for all students */
     @font-face { font-family: 'AutoXiaozhuan'; src: local('方正小篆体'), local('FZXiaoZhuanTi-S13T'), local('小篆'), local('汉仪篆书繁'); font-display: swap; }
     :root {
       --bg-parchment: #FAF6F0; --bg-card: #FFFFFF; --bg-subtle: #F3ECE1;
@@ -73,6 +74,14 @@
     .section-title { font-size: 1rem; font-weight: 700; color: var(--cinnabar); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.5rem; }
     .evolution-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 1.75rem; }
     @media (max-width: 860px) { .evolution-grid { grid-template-columns: 1fr; } }
+    .evolution-grid.expanded { grid-template-columns: repeat(6, 1fr); }
+    .evolution-grid.expanded.seven-col { grid-template-columns: repeat(7, 1fr); }
+    @media (max-width: 1100px) { .evolution-grid.expanded, .evolution-grid.expanded.seven-col { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 860px) { .evolution-grid.expanded, .evolution-grid.expanded.seven-col { grid-template-columns: 1fr; } }
+    .stage-card.empty-stage { opacity: 0.75; }
+    .stage-card.empty-stage .artifact-box { background: #F8FAFC; }
+    .stage-hide-btn { font-size: 0.72rem; padding: 0.15rem 0.45rem; border-radius: 6px; cursor: pointer; }
+    .ladder-toggle-row { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin: -0.75rem 0 1.75rem; }
     .stage-card { background: var(--bg-parchment); border: 1.5px solid var(--border); border-radius: 12px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between; }
     .stage-card.final-stage { background: #FFFDF9; border: 2.5px solid var(--cinnabar); }
     .stage-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; gap: 0.35rem; flex-wrap: wrap; }
@@ -170,7 +179,7 @@
         </div>
         <div style="display:flex;gap:0.5rem;flex-wrap:wrap;"><button id="prev-char-btn">⬅ 上一个</button><button id="next-char-btn">下一个 ➡</button><button id="master-toggle-btn" class="btn-jade">☆ 我学会了</button></div>
       </div>
-      <div class="section-title"><span class="student-only">🔍 看图变变变：古时候的画 ➔ 今天的汉字</span><span class="teacher-only">三阶段字形演变 (甲骨文 ➔ 小篆 ➔ 现代规范楷书)</span></div>
+      <div class="section-title"><span class="student-only">🔍 看图变变变：古时候的画 ➔ 今天的汉字</span><span class="teacher-only">字形演变 (最早字形 ➔ 现代规范楷书)</span></div>
       <div id="crop-box" style="margin-bottom:1rem;"></div>
 <div class="evolution-grid" id="evo-grid">
         <div class="stage-card">
@@ -190,6 +199,7 @@
           <p class="stage-desc teacher-only" id="desc-ks"></p>
         </div>
       </div>
+      <div class="ladder-toggle-row"><button id="ladder-toggle-btn" style="font-size:0.85rem;padding:0.4rem 0.9rem;">展开全部 6 个阶段 ▾</button><span id="ladder-hidden-note" style="font-size:0.8rem;color:var(--ink-muted);"></span></div>
       <div class="details-grid">
         <div class="info-box"><div class="section-title"><span class="student-only">💡 汉字小故事 (形义联结)</span><span class="teacher-only">📜 形义联结 · 字源解析 (说文解字)</span></div><div class="student-clue-pill student-only" id="student-clue-box"></div><p id="origin-text" style="font-size:0.95rem;"></p><div class="citation-footer teacher-only" id="citation-text"></div></div>
         <div class="info-box"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.65rem;"><div class="section-title" style="margin-bottom:0;">🎵 识字口诀 / 儿歌</div><button id="speak-rhyme-btn" style="font-size:0.8rem;padding:0.28rem 0.65rem;">🔊 朗读儿歌</button></div><p class="rhyme-text" id="rhyme-text"></p></div>
@@ -484,21 +494,91 @@
       document.getElementById("drawer-arrow-btn").textContent = isDrawerCollapsed ? "▼ 展开列表" : "▲ 收起列表";
     };
 
+    // v14 (2026-11-24): flexible 6-stage ladder — 甲骨文 → 金文 → 战国文字（大篆体系） → 小篆 → 隶书 → 楷书.
+    // Compact view (default) = the v12 3-card ladder, so students are not overloaded.
+    // "展开全部 6 个阶段" shows the full timeline: stages before the earliest form are empty greyed cards
+    // ("这个字在 X 时期还没有出现"). In the expanded view each card has a ✕ to hide that stage;
+    // hiding is view-only for this character and resets when you move to another character.
+    // No JSON changes are needed: the ladder is driven by the evolution array already in each entry.
+    const LADDER_STAGES = ["甲骨文", "金文", "战国文字", "小篆", "隶书", "楷书"];
+    const STAGE_DISPLAY = { "战国文字": "战国文字（大篆体系）" };
+    const stageLabel = (s) => STAGE_DISPLAY[s] || s;
+    let ladderExpanded = false;
+    let ladderHiddenStages = new Set();
+    let ladderCurrentItem = null;
+    let ladderLastChar = null;
+    const extraLadderCards = {};
+    let ladderToggleWired = false;
+
+    function getExtraLadderCard(stage) {
+      if (!extraLadderCards[stage]) {
+        const card = document.createElement("div");
+        card.className = "stage-card";
+        card.dataset.stage = stage;
+        const inner = document.createElement("div");
+        const header = document.createElement("div");
+        header.className = "stage-header";
+        const tag = document.createElement("span");
+        tag.className = "stage-tag";
+        header.appendChild(tag);
+        const abox = document.createElement("div");
+        abox.className = "artifact-box";
+        abox.style.display = "none";
+        inner.appendChild(header);
+        inner.appendChild(abox);
+        card.appendChild(inner);
+        extraLadderCards[stage] = card;
+      }
+      return extraLadderCards[stage];
+    }
+
+    function wireLadderToggle() {
+      if (ladderToggleWired) return;
+      const btn = document.getElementById("ladder-toggle-btn");
+      if (!btn) return;
+      ladderToggleWired = true;
+      btn.onclick = () => {
+        ladderExpanded = !ladderExpanded;
+        if (ladderCurrentItem) renderCropAndLadder(ladderCurrentItem);
+      };
+    }
+
+    function updateLadderToggle() {
+      const btn = document.getElementById("ladder-toggle-btn");
+      const note = document.getElementById("ladder-hidden-note");
+      if (!btn) return;
+      btn.textContent = ladderExpanded ? "收起，只看 3 个 ▴" : "展开全部 6 个阶段 ▾";
+      if (!note) return;
+      note.innerHTML = "";
+      if (ladderExpanded && ladderHiddenStages.size) {
+        note.textContent = "已隐藏 " + ladderHiddenStages.size + " 个阶段 ";
+        const r = document.createElement("button");
+        r.textContent = "恢复全部";
+        r.style.cssText = "font-size:0.8rem;padding:0.15rem 0.5rem;";
+        r.onclick = () => { ladderHiddenStages.clear(); if (ladderCurrentItem) renderCropAndLadder(ladderCurrentItem); };
+        note.appendChild(r);
+      }
+    }
+
     // v9 (2026-11-19): show evolution_note also for 3-stage and 印文 ladders, e.g. 牙 / 也 金文 note
     function renderCropAndLadder(item) {
   const grid = document.getElementById("evo-grid"), box = document.getElementById("crop-box");
-  const cards = [...grid.children], evo = item.evolution;
+  if (!window._origLadderCards) window._origLadderCards = [...grid.children].filter(el => el.classList.contains("stage-card")).slice(0, 3);
+  const orig = window._origLadderCards;
+  const [cardJgw, cardXz, cardKs] = orig;
+  const evo = item.evolution;
+  ladderCurrentItem = item;
+  wireLadderToggle();
+  if (ladderLastChar !== item.c) { ladderHiddenStages = new Set(); ladderLastChar = item.c; }
   box.innerHTML = "";
 
-  // 重置：三张卡片永远存在
-  grid.style.display = "grid";
-  grid.style.gridTemplateColumns = "";
-  cards.forEach(c => {
+  const resetCard = (c) => {
     c.style.display = "";
-    c.querySelectorAll(".grey-note, .gen-note").forEach(n => n.remove());
+    c.querySelectorAll(".grey-note, .gen-note, .stage-hide-btn").forEach(n => n.remove());
     const a = c.querySelector(".artifact-box");
     if (a) a.style.display = "";
-  });
+    c.classList.remove("empty-stage");
+  };
   const setLabel = (card, txt) => card.querySelectorAll(".stage-tag").forEach(t => t.textContent = txt);
   const addNote = (card, txt, cls, color) => {
     const n = document.createElement("p");
@@ -507,6 +587,23 @@
     n.textContent = txt;
     card.appendChild(n);
   };
+  const addHideBtn = (card, stage) => {
+    const hb = document.createElement("button");
+    hb.className = "stage-hide-btn";
+    hb.textContent = "✕ 隐藏";
+    hb.onclick = () => { ladderHiddenStages.add(stage); renderCropAndLadder(ladderCurrentItem); };
+    card.querySelector(".stage-header").appendChild(hb);
+  };
+
+  // Reset: grid holds only the 3 original cards, in order, clean.
+  [...grid.children].forEach(c => { if (!orig.includes(c)) c.remove(); });
+  orig.forEach(c => grid.appendChild(c));
+  grid.classList.remove("expanded", "seven-col");
+  grid.style.display = "grid";
+  grid.style.gridTemplateColumns = "";
+  orig.forEach(resetCard);
+  // desc-jgw describes the earliest form, so it lives under the earliest card; put it back home first.
+  cardJgw.appendChild(document.getElementById("desc-jgw"));
 
   // 图片：只有 has_crop 为 true 才显示
   if (item.has_crop && item.image_file) {
@@ -536,33 +633,102 @@
     box.appendChild(p);
   }
 
-  // 没有 evolution：三格照常显示，只加提示
-  if (!evo) {
-    cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
+  const cards = orig;
+  if (!ladderExpanded) {
+    // —— Compact view: exactly the v12 3-card ladder ——
+    if (!evo) {
+      cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
+      updateLadderToggle();
+      return;
+    }
+
+    if (evo.length === 3) {
+      evo.forEach((lab, i) => setLabel(cards[i], stageLabel(lab)));
+      // v12 (2026-11-21): hide the font glyph in the first card whenever a real crop exists — the crop picture at the top is the true first form. This fixes 草 etc.: the embedded 甲骨文 font only holds 94 of 1A's 184 characters, so for the rest the browser falls back to a 楷书-like glyph. (v9 already hid it when the first stage is not 甲骨文, e.g. 金文 for 牙 / 也.)
+      const firstGlyphHidden = evo[0] !== "甲骨文" || (item.has_crop && item.image_file);
+      if (firstGlyphHidden) cards[0].querySelector(".artifact-box").style.display = "none";
+      addNote(cards[0], firstGlyphHidden ? "字形见上方图片" : "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      addNote(cards[1], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+    } else if (evo.length > 3) {
+      // 4-stage chain (e.g. 有: 甲骨文→金文→小篆→楷书). Compact view keeps the classic 3 cards;
+      // the skipped middle stage (金文) is shown by the picture above.
+      setLabel(cards[0], stageLabel(evo[0])); setLabel(cards[1], "小篆"); setLabel(cards[2], "楷书");
+      const firstGlyphHidden = item.has_crop && item.image_file;
+      if (firstGlyphHidden) cards[0].querySelector(".artifact-box").style.display = "none";
+      addNote(cards[0], firstGlyphHidden ? "字形见上方图片" : "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      addNote(cards[1], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+    } else if (evo[0] === "小篆") {
+      setLabel(cards[0], "甲骨文");
+      cards[0].querySelector(".artifact-box").style.display = "none";
+      addNote(cards[0], item.evolution_note || "这个字在甲骨文时期还没有出现", "grey-note", "#94A3B8");
+      setLabel(cards[1], "小篆"); setLabel(cards[2], "楷书");
+      addNote(cards[1], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+    } else { // 印文, 楷书
+      setLabel(cards[0], stageLabel(evo[0]));
+      cards[1].style.display = "none";
+      grid.style.gridTemplateColumns = "repeat(2,1fr)";
+      // v12: same rule as the 3-stage ladder — if a real crop exists (e.g. 头, 印文), hide the font glyph and point at the picture
+      const firstGlyphHidden = item.has_crop && item.image_file;
+      if (firstGlyphHidden) cards[0].querySelector(".artifact-box").style.display = "none";
+      addNote(cards[0], firstGlyphHidden ? "字形见上方图片" : "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+    }
+    updateLadderToggle();
     return;
   }
 
-  if (evo.length === 3) {
-    evo.forEach((lab, i) => setLabel(cards[i], lab));
-    cards.slice(0, 2).forEach(c => addNote(c, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8"));
-    if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
-    // v9: first stage is not 甲骨文 (e.g. 金文 for 牙 / 也) — the font glyph is just the modern character, so hide it and let the crop picture at the top be the real form
-    if (evo[0] !== "甲骨文") cards[0].querySelector(".artifact-box").style.display = "none";
-  } else if (evo[0] === "小篆") {
-    setLabel(cards[0], "甲骨文");
-    cards[0].querySelector(".artifact-box").style.display = "none";
-    addNote(cards[0], item.evolution_note || "这个字在甲骨文时期还没有出现", "grey-note", "#94A3B8");
-    setLabel(cards[1], "小篆"); setLabel(cards[2], "楷书");
-    addNote(cards[1], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
-  } else { // 印文, 楷书
-    setLabel(cards[0], evo[0]);
-    cards[1].style.display = "none";
-    grid.style.gridTemplateColumns = "repeat(2,1fr)";
-    addNote(cards[0], "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
-    if (item.evolution_note) addNote(cards[0], item.evolution_note, "grey-note", "#94A3B8");
+  // —— Expanded view: full timeline ——
+  let stages = [...LADDER_STAGES];
+  if (evo) {
+    for (const s of evo) {
+      if (s !== "楷书" && !stages.includes(s)) stages.splice(stages.indexOf("楷书"), 0, s);
+    }
   }
+  const earliest = evo ? evo[0] : null;
+  const built = [];
+  stages.forEach((stage, i) => {
+    if (ladderHiddenStages.has(stage)) return;
+    let card;
+    if (stage === "甲骨文") card = cardJgw;
+    else if (stage === "小篆") card = cardXz;
+    else if (stage === "楷书") card = cardKs;
+    else card = getExtraLadderCard(stage);
+    resetCard(card);
+    setLabel(card, (i + 1) + " " + stageLabel(stage));
+    // desc-jgw describes the earliest form, so it moves under the earliest card.
+    if (stage === earliest) card.appendChild(document.getElementById("desc-jgw"));
+    const filled = !!(evo && evo.includes(stage));
+    const abox = card.querySelector(".artifact-box");
+    if (!filled) {
+      card.classList.add("empty-stage");
+      if (abox) abox.style.display = "none";
+      addNote(card, evo ? ("这个字在" + stage + "时期还没有出现") : "这个字的最早字形还没有确认", "grey-note", "#94A3B8");
+    } else if (stage === "甲骨文") {
+      const hideGlyph = item.has_crop && item.image_file;
+      if (hideGlyph && abox) abox.style.display = "none";
+      addNote(card, hideGlyph ? "字形见上方图片" : "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+      if (item.evolution_note) addNote(card, item.evolution_note, "grey-note", "#94A3B8");
+    } else if (stage === "小篆") {
+      addNote(card, "字形由字体生成，不是书中的图", "gen-note", "#94A3B8");
+    } else if (stage === "楷书") {
+      // 楷书卡自带田字格和笔顺按钮，不加隐藏按钮
+    } else {
+      // 金文 / 战国文字 / 印文：没有对应的字体，字形看图片
+      if (abox) abox.style.display = "none";
+      if (item.crop_form === stage) addNote(card, "字形见上方图片", "gen-note", "#94A3B8");
+      if (stage === earliest && item.evolution_note) addNote(card, item.evolution_note, "grey-note", "#94A3B8");
+    }
+    if (stage !== "楷书") addHideBtn(card, stage);
+    built.push(card);
+  });
+  [...grid.children].forEach(c => { if (!built.includes(c)) c.remove(); });
+  built.forEach(c => grid.appendChild(c));
+  grid.classList.add("expanded");
+  if (built.length > 6) grid.classList.add("seven-col");
+  updateLadderToggle();
 }
-
 
     function speakText(t) {
       if (!("speechSynthesis" in window)) return;
@@ -689,4 +855,3 @@ initData();
 </script>
 </body>
 </html>
-
